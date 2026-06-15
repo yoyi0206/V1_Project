@@ -1,0 +1,32 @@
+name: Scraping Harian Jambi
+
+on:
+  schedule:
+    - cron: '0 22 * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ambil kode repo
+        uses: actions/checkout@v4
+
+      - name: Siapkan Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install library
+        run: pip install requests trafilatura
+
+      - name: Jalankan scraping
+        run: python scrape.py
+
+      - name: Simpan hasil ke repo
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data.csv
+          git commit -m "Data harian otomatis" || echo "Tidak ada data baru"
+          git push
