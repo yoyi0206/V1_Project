@@ -102,6 +102,7 @@ PORTAL_200 = [
     "https://jambi-time.com/",
     "https://jambiupdate.co/",
     "https://jambiwin.com/",
+    "https://jambi.tribunnews.com/",
     "https://jaripers.id/",
     "https://jatinews.co/",
     "https://jeka24.com/",
@@ -215,7 +216,6 @@ PORTAL_200 = [
     "https://tropongjambi.com/",
     "https://tuntasnews.com/",
     "https://tuntasonline.id/",
-    "https://jambi.tribunnews.com/",
     "https://unggahnews.com/",
     "https://updateku.com/",
     "https://vojnews.id/",
@@ -320,6 +320,22 @@ def pseudonymize(text):
     text = re.sub(r'\b(Bapak|Ibu|Pak|Bu|Sdr|Saudara)\s+[A-Z][a-z]+(\s[A-Z][a-z]+)?',
                   r'\1 [NAMA]', text)
     return text
+
+
+# --- penanda (cue) pendukung extract_units_fallback & gov_level ---
+_WARGA_CUE = re.compile(r'\b(warga|masyarakat|pengguna|pemohon|pasien|wali murid|'
+                        r'orang ?tua siswa|netizen|warganet|pengunjung|penumpang|keluarga pasien)\b', re.I)
+_PEJABAT_CUE = re.compile(r'\b(kepala dinas|kadis|gubernur|wagub|wakil gubernur|sekda|'
+                          r'wali ?kota|bupati|pejabat|pihak dinas|direktur|wakil direktur|wadir|'
+                          r'kepala (bidang|seksi|uptd|rsud)|ketua|anggota dewan|dprd|kapolda|kapolres|'
+                          r'menyatakan|menjelaskan|menegaskan|menganggarkan|menginstruksikan|'
+                          r'saya (minta|instruksikan|perintahkan|tegaskan)|kita (punya|akan)|'
+                          r'akan (kami|segera kami)|pihak (kami|rumah sakit)|'
+                          r'menurut\s+\w+,?\s+(kepala|kadis|direktur))\b', re.I)
+_KOTA_CUE = re.compile(r'\b(tirta mayang|pdam|perumda|wali ?kota|puskesmas|jalan kota|'
+                       r'sd negeri|smp negeri|kelurahan|pemkot|pemkab|bupati)\b', re.I)
+_PROV_CUE = re.compile(r'\b(jalan provinsi|ruas provinsi|pemprov|gubernur|sma negeri|'
+                       r'smk negeri|rsud|raden mattaher|dprd provinsi|jalan milik provinsi)\b', re.I)
 
 def extract_units_fallback(article_text, title=""):
     seen, units = set(), []
