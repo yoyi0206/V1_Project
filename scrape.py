@@ -5,7 +5,7 @@ scrape.py - pengumpul berita Jambi untuk GitHub Actions (jalan harian otomatis).
 TANPA IndoBERT/GPU. Hasil disimpan & ditambahkan ke data.csv (akumulatif, dedup URL).
 Klasifikasi sentimen dilakukan terpisah di Colab.
 """
-import csv, re, os, sys
+import csv, re, os, sys, json
 from datetime import datetime
 
 PORTAL_200 = [
