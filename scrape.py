@@ -4,6 +4,7 @@
 scrape.py - pengumpul berita Jambi untuk GitHub Actions (jalan harian otomatis).
 TANPA IndoBERT/GPU. Hasil disimpan & ditambahkan ke data.csv (akumulatif, dedup URL).
 Klasifikasi sentimen dilakukan terpisah di Colab.
++ FILTER LOKASI: hanya loloskan konten relevan Provinsi Jambi (buang Bengkulu dll).
 """
 import csv, re, os, sys, json
 from datetime import datetime
@@ -235,6 +236,29 @@ RELEVAN = re.compile(r"\b(pemprov|pemerintah|gubernur|dinas|opd|dprd|pelayanan|l
 NOISE = re.compile(r"\b(lirik|lagu|chord|zodiak|resep|open bo|video syur|gisel|artis|"
     r"harga (hp|motor|mobil|emas)|vario|nmax|promo|nonton|streaming|drakor|prediksi skor|klasemen|liga)\b", re.I)
 
+# --- FILTER LOKASI: pastikan konten relevan Provinsi Jambi ---
+# Penanda Jambi: nama provinsi + 11 kabupaten/kota + ibukotanya + tokoh provinsi.
+_JAMBI = re.compile(r"\b(jambi|muaro ?jambi|batang ?hari|bungo|muara bungo|tebo|muara tebo|"
+    r"sarolangun|merangin|bangko|kerinci|sungai penuh|tanjung jabung|tanjab|"
+    r"kuala tungkal|muara sabak|sengeti|muara bulian|pemprov jambi|provinsi jambi|"
+    r"gubernur jambi|al ?haris|abdullah sani|raden mattaher)\b", re.I)
+# Penanda daerah LAIN (terutama Bengkulu yang sempat bocor + provinsi tetangga).
+_NONJAMBI = re.compile(r"\b(bengkulu|muko-?muko|mukomuko|kaur|seluma|rejang lebong|kepahiang|"
+    r"lebong|argamakmur|curup|manjun?to|"
+    r"palembang|sumatera selatan|sumsel|padang|sumatera barat|sumbar|"
+    r"pekanbaru|riau|lampung|medan|sumatera utara|sumut|aceh|"
+    r"bangka|belitung|babel)\b", re.I)
+
+def is_jambi_article(text, url="", title=""):
+    """True jika artikel relevan Jambi. Buang HANYA jika jelas daerah lain
+    (ada penanda non-Jambi) DAN tidak ada penanda Jambi sama sekali."""
+    blob = f"{url} {title} {text}".lower()
+    ada_jambi = bool(_JAMBI.search(blob))
+    ada_lain = bool(_NONJAMBI.search(blob))
+    if ada_lain and not ada_jambi:
+        return False          # jelas daerah lain -> buang seluruh artikel
+    return True               # ada penanda Jambi, atau netral -> simpan
+
 def harvest_links(listing_urls, must_contain="/berita/", limit=None):
     """Panen URL artikel dari halaman daftar (pencarian / kategori / homepage).
     must_contain="/berita/" (Antara) untuk pola pasti, ATAU "auto" untuk
@@ -299,10 +323,16 @@ def scrape(urls):
         except Exception as e:
             print(f"  [req-error] {u}: {e}")
         if not html:                                   # fallback ke fetcher bawaan
-            html = trafilatura.fetch_url(u)
+            try:
+                html = trafilatura.fetch_url(u)
+            except Exception as e:
+                print(f"  [fetch-error] {u}: {e}")
         if not html:
             print(f"  [gagal] {u}"); continue
-        data = trafilatura.extract(html, output_format="json", with_metadata=True)
+        try:
+            data = trafilatura.extract(html, output_format="json", with_metadata=True)
+        except Exception as e:
+            print(f"  [extract-error] {u}: {e}"); continue
         if not data:
             print(f"  [tanpa-isi] {u}"); continue
         d = json.loads(data)
@@ -384,12 +414,19 @@ def main():
     arts = scrape(baru)
     tanggal = datetime.now().strftime("%Y-%m-%d")
     rows = []
+    buang_lokasi = 0
     for art in arts:
+        # FILTER LOKASI level-artikel: buang yang jelas daerah lain
+        if not is_jambi_article(art["text"], art["source_url"], art.get("title","")):
+            buang_lokasi += 1
+            print(f"  [bukan Jambi] {art['source_url']}"); continue
         clean = pseudonymize(art["text"])
         for u in extract_units_fallback(clean, art.get("title","")):
-            if RELEVAN.search(u) and not NOISE.search(u):
+            # relevan topik, bukan noise, DAN tak menyebut daerah lain (filter lapis-2)
+            if RELEVAN.search(u) and not NOISE.search(u) and not _NONJAMBI.search(u):
                 rows.append({"unit": u, "level": gov_level(u),
                              "source_url": art["source_url"], "tanggal_ambil": tanggal})
+    print(f"Artikel dibuang (bukan Jambi): {buang_lokasi}")
     print(f"Unit relevan baru: {len(rows)}")
     if not rows:
         print("Tidak ada unit relevan. Selesai."); return
