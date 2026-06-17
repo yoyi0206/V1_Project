@@ -465,9 +465,11 @@
     "source_url": "https://amuranews.id/negeri-yang-mulai-kehilangan-rasa-hormat/",
     "tanggal_ambil": "2026-06-15",
     "sentimen": "negatif",
-    "actionable": "ekspresif",
-    "dinas": "",
-    "dasar_hukum": ""
+    "actionable": "tinjau",
+    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
+    "dasar_hukum": "-",
+    "skor_tupoksi": 0.32,
+    "bidang_cocok": "Cipta Karya"
   },
   {
     "unit": "Dialog publik ini menjadi momentum penting dalam membangun kesadaran kolektif bahwa persoalan sampah bukan hanya urusan pemerintah semata, melainkan tanggung jawab bersama seluruh elemen masyarakat.",
@@ -645,9 +647,11 @@
     "source_url": "https://amuranews.id/demo-mahasiswa-di-berbagai-kota-ketika-kekecewaan-rakyat-tak-lagi-mampu-dibungkam/",
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
-    "actionable": "ekspresif",
-    "dinas": "",
-    "dasar_hukum": ""
+    "actionable": "tinjau",
+    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
+    "dasar_hukum": "-",
+    "skor_tupoksi": 0.436,
+    "bidang_cocok": "Pemberdayaan Masyarakat Desa"
   },
   {
     "unit": "Hampir setiap pekan masyarakat membaca berita tentang penyalahgunaan anggaran negara, suap proyek, jual beli jabatan, manipulasi pengadaan barang dan jasa, hingga berbagai bentuk kejahatan yang dilakukan oleh mereka yang seharusnya menjadi pelayan rakyat.",
@@ -655,9 +659,11 @@
     "source_url": "https://amuranews.id/demo-mahasiswa-di-berbagai-kota-ketika-kekecewaan-rakyat-tak-lagi-mampu-dibungkam/",
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
-    "actionable": "ekspresif",
-    "dinas": "",
-    "dasar_hukum": ""
+    "actionable": "tinjau",
+    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
+    "dasar_hukum": "-",
+    "skor_tupoksi": 0.391,
+    "bidang_cocok": "Cipta Karya"
   },
   {
     "unit": "Uang yang seharusnya digunakan untuk membangun sekolah, memperbaiki rumah sakit, membuka lapangan pekerjaan, membantu petani, nelayan, dan masyarakat miskin, justru mengalir ke kantong-kantong pribadi para pelaku korupsi.",
@@ -666,8 +672,10 @@
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
     "actionable": "ya",
-    "dinas": "Dinas Pendidikan Provinsi Jambi",
-    "dasar_hukum": "Pergub 35/2016 — cek pasca-reorg 2025"
+    "dinas": "Dinas Pekerjaan Umum dan Tata Ruang (PUTR)",
+    "dasar_hukum": "PUPR lama Pergub 45/2016 (usang); SOTK PUTR pasca-2025 perlu verifikasi",
+    "skor_tupoksi": 0.527,
+    "bidang_cocok": "Cipta Karya"
   },
   {
     "unit": "Dalam situasi seperti ini, muncul pula kekhawatiran masyarakat terhadap berbagai program strategis yang menggunakan anggaran sangat besar.",
@@ -685,9 +693,11 @@
     "source_url": "https://amuranews.id/demo-mahasiswa-di-berbagai-kota-ketika-kekecewaan-rakyat-tak-lagi-mampu-dibungkam/",
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
-    "actionable": "ekspresif",
-    "dinas": "",
-    "dasar_hukum": ""
+    "actionable": "tinjau",
+    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
+    "dasar_hukum": "-",
+    "skor_tupoksi": 0.314,
+    "bidang_cocok": "Pembinaan SMA/SMK/PKLK"
   },
   {
     "unit": "Korupsi sudah terlalu sering terjadi hingga sebagian masyarakat nyaris kebal mendengarnya.",
@@ -695,9 +705,11 @@
     "source_url": "https://amuranews.id/demo-mahasiswa-di-berbagai-kota-ketika-kekecewaan-rakyat-tak-lagi-mampu-dibungkam/",
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
-    "actionable": "ekspresif",
-    "dinas": "",
-    "dasar_hukum": ""
+    "actionable": "tinjau",
+    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
+    "dasar_hukum": "-",
+    "skor_tupoksi": 0.26,
+    "bidang_cocok": "Cipta Karya"
   },
   {
     "unit": "Momentum Hari Bhayangkara ke-80 ini juga menjadi bukti komitmen Polda Jambi dalam terus memperkuat kolaborasi dengan seluruh elemen bangsa, mulai dari pemerintah, TNI, komunitas olahraga, hingga masyarakat luas demi mewujudkan situasi kamtibmas yang aman, damai, dan kondusif di Provinsi Jambi.",
@@ -995,9 +1007,11 @@
     "source_url": "https://amuranews.id/jambi-siaga-karhutla-kapolda-pembakar-hutan-jangan-berharap-ampun/",
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
-    "actionable": "ekspresif",
-    "dinas": "",
-    "dasar_hukum": ""
+    "actionable": "ya",
+    "dinas": "Satpol PP & Damkar",
+    "dasar_hukum": "Pergub 30/2024 (SOTK Perangkat Daerah, umum)",
+    "skor_tupoksi": 0.576,
+    "bidang_cocok": "Pengendalian Kebakaran"
   },
   {
     "unit": "RKS Siap Mengawal Aspirasi hingga Tingkat Pembahasan Kebijakan\nDi hadapan puluhan warga Legok Sungai Putri, RKS menyampaikan bahwa setiap aspirasi yang masuk tidak hanya dicatat, tetapi akan dikawal secara langsung hingga tahap pembahasan anggaran dan realisasi program.",
