@@ -469,7 +469,8 @@
     "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
     "dasar_hukum": "-",
     "skor_tupoksi": 0.293,
-    "bidang_cocok": "Persandian dan TIK"
+    "bidang_cocok": "Persandian dan TIK",
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor kemiripan 0.293 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Dialog publik ini menjadi momentum penting dalam membangun kesadaran kolektif bahwa persoalan sampah bukan hanya urusan pemerintah semata, melainkan tanggung jawab bersama seluruh elemen masyarakat.",
@@ -651,7 +652,8 @@
     "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
     "dasar_hukum": "-",
     "skor_tupoksi": 0.491,
-    "bidang_cocok": "Perlindungan & Jaminan Sosial, Rehabilitasi Sosial, Pemberdayaan Sosial, Fakir Miskin, Dukcapil"
+    "bidang_cocok": "Perlindungan & Jaminan Sosial, Rehabilitasi Sosial, Pemberdayaan Sosial, Fakir Miskin, Dukcapil",
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor kemiripan 0.491 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Hampir setiap pekan masyarakat membaca berita tentang penyalahgunaan anggaran negara, suap proyek, jual beli jabatan, manipulasi pengadaan barang dan jasa, hingga berbagai bentuk kejahatan yang dilakukan oleh mereka yang seharusnya menjadi pelayan rakyat.",
@@ -663,7 +665,8 @@
     "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
     "dasar_hukum": "-",
     "skor_tupoksi": 0.419,
-    "bidang_cocok": "Informasi dan Komunikasi Publik"
+    "bidang_cocok": "Informasi dan Komunikasi Publik",
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor kemiripan 0.419 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Uang yang seharusnya digunakan untuk membangun sekolah, memperbaiki rumah sakit, membuka lapangan pekerjaan, membantu petani, nelayan, dan masyarakat miskin, justru mengalir ke kantong-kantong pribadi para pelaku korupsi.",
@@ -675,7 +678,8 @@
     "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
     "dasar_hukum": "-",
     "skor_tupoksi": 0.413,
-    "bidang_cocok": "Cipta Karya"
+    "bidang_cocok": "Cipta Karya",
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor kemiripan 0.413 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Dalam situasi seperti ini, muncul pula kekhawatiran masyarakat terhadap berbagai program strategis yang menggunakan anggaran sangat besar.",
@@ -697,7 +701,8 @@
     "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
     "dasar_hukum": "-",
     "skor_tupoksi": 0.32,
-    "bidang_cocok": "Perlindungan & Jaminan Sosial, Rehabilitasi Sosial, Pemberdayaan Sosial, Fakir Miskin, Dukcapil"
+    "bidang_cocok": "Perlindungan & Jaminan Sosial, Rehabilitasi Sosial, Pemberdayaan Sosial, Fakir Miskin, Dukcapil",
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor kemiripan 0.32 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Korupsi sudah terlalu sering terjadi hingga sebagian masyarakat nyaris kebal mendengarnya.",
@@ -709,7 +714,8 @@
     "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
     "dasar_hukum": "-",
     "skor_tupoksi": 0.212,
-    "bidang_cocok": "Cipta Karya"
+    "bidang_cocok": "Cipta Karya",
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor kemiripan 0.212 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Momentum Hari Bhayangkara ke-80 ini juga menjadi bukti komitmen Polda Jambi dalam terus memperkuat kolaborasi dengan seluruh elemen bangsa, mulai dari pemerintah, TNI, komunitas olahraga, hingga masyarakat luas demi mewujudkan situasi kamtibmas yang aman, damai, dan kondusif di Provinsi Jambi.",
@@ -977,11 +983,12 @@
     "source_url": "https://amuranews.id/jambi-siaga-karhutla-kapolda-pembakar-hutan-jangan-berharap-ampun/",
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
-    "actionable": "ya",
-    "dinas": "Dinas Perkebunan",
-    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 43 Tahun 2016",
+    "actionable": "tinjau",
+    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
+    "dasar_hukum": "-",
     "skor_tupoksi": 0.503,
-    "bidang_cocok": "Perbenihan & Produksi, Pengembangan & Penyuluhan, Prasarana & Perlindungan, Pengolahan & Pemasaran"
+    "bidang_cocok": "Perbenihan & Produksi, Pengembangan & Penyuluhan, Prasarana & Perlindungan, Pengolahan & Pemasaran",
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor kemiripan 0.503 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Forum ini menjadi sinyal kuat bahwa perang melawan Karhutla tidak bisa dilakukan sendiri-sendiri, melainkan membutuhkan kekuatan bersama antara pemerintah, aparat penegak hukum, kampus, dunia usaha, dan masyarakat.",
@@ -1013,7 +1020,8 @@
     "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
     "dasar_hukum": "-",
     "skor_tupoksi": 0.398,
-    "bidang_cocok": "Perbenihan & Produksi, Pengembangan & Penyuluhan, Prasarana & Perlindungan, Pengolahan & Pemasaran"
+    "bidang_cocok": "Perbenihan & Produksi, Pengembangan & Penyuluhan, Prasarana & Perlindungan, Pengolahan & Pemasaran",
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor kemiripan 0.398 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "RKS Siap Mengawal Aspirasi hingga Tingkat Pembahasan Kebijakan\nDi hadapan puluhan warga Legok Sungai Putri, RKS menyampaikan bahwa setiap aspirasi yang masuk tidak hanya dicatat, tetapi akan dikawal secara langsung hingga tahap pembahasan anggaran dan realisasi program.",
