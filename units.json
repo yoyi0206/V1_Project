@@ -468,9 +468,9 @@
     "actionable": "tinjau",
     "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
     "dasar_hukum": "-",
-    "skor_tupoksi": 0.293,
-    "bidang_cocok": "Persandian dan TIK",
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor kemiripan 0.293 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "skor_tupoksi": 0.341,
+    "bidang_cocok": "Pemberdayaan Sosial",
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.341 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Dialog publik ini menjadi momentum penting dalam membangun kesadaran kolektif bahwa persoalan sampah bukan hanya urusan pemerintah semata, melainkan tanggung jawab bersama seluruh elemen masyarakat.",
@@ -648,12 +648,12 @@
     "source_url": "https://amuranews.id/demo-mahasiswa-di-berbagai-kota-ketika-kekecewaan-rakyat-tak-lagi-mampu-dibungkam/",
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
-    "actionable": "tinjau",
-    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
-    "dasar_hukum": "-",
-    "skor_tupoksi": 0.491,
-    "bidang_cocok": "Perlindungan & Jaminan Sosial, Rehabilitasi Sosial, Pemberdayaan Sosial, Fakir Miskin, Dukcapil",
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor kemiripan 0.491 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "actionable": "ya",
+    "dinas": "Dinas Sosial, Kependudukan dan Pencatatan Sipil",
+    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 44 Tahun 2016",
+    "skor_tupoksi": 0.512,
+    "bidang_cocok": "Penanganan Fakir Miskin",
+    "rekomendasi": "Keluhan diteruskan ke Dinas Sosial, Kependudukan dan Pencatatan Sipil — Bidang Penanganan Fakir Miskin (dasar: Peraturan Gubernur Jambi Nomor 44 Tahun 2016), yang menyelenggarakan fungsi: Penanganan dan pemberdayaan fakir miskin. Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
   },
   {
     "unit": "Hampir setiap pekan masyarakat membaca berita tentang penyalahgunaan anggaran negara, suap proyek, jual beli jabatan, manipulasi pengadaan barang dan jasa, hingga berbagai bentuk kejahatan yang dilakukan oleh mereka yang seharusnya menjadi pelayan rakyat.",
@@ -666,7 +666,7 @@
     "dasar_hukum": "-",
     "skor_tupoksi": 0.419,
     "bidang_cocok": "Informasi dan Komunikasi Publik",
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor kemiripan 0.419 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.419 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Uang yang seharusnya digunakan untuk membangun sekolah, memperbaiki rumah sakit, membuka lapangan pekerjaan, membantu petani, nelayan, dan masyarakat miskin, justru mengalir ke kantong-kantong pribadi para pelaku korupsi.",
@@ -674,12 +674,12 @@
     "source_url": "https://amuranews.id/demo-mahasiswa-di-berbagai-kota-ketika-kekecewaan-rakyat-tak-lagi-mampu-dibungkam/",
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
-    "actionable": "tinjau",
-    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
-    "dasar_hukum": "-",
-    "skor_tupoksi": 0.413,
-    "bidang_cocok": "Cipta Karya",
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor kemiripan 0.413 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "actionable": "ya",
+    "dinas": "Dinas Sosial, Kependudukan dan Pencatatan Sipil",
+    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 44 Tahun 2016",
+    "skor_tupoksi": 0.54,
+    "bidang_cocok": "Penanganan Fakir Miskin",
+    "rekomendasi": "Keluhan diteruskan ke Dinas Sosial, Kependudukan dan Pencatatan Sipil — Bidang Penanganan Fakir Miskin (dasar: Peraturan Gubernur Jambi Nomor 44 Tahun 2016), yang menyelenggarakan fungsi: Penanganan dan pemberdayaan fakir miskin. Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
   },
   {
     "unit": "Dalam situasi seperti ini, muncul pula kekhawatiran masyarakat terhadap berbagai program strategis yang menggunakan anggaran sangat besar.",
@@ -700,9 +700,9 @@
     "actionable": "tinjau",
     "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
     "dasar_hukum": "-",
-    "skor_tupoksi": 0.32,
-    "bidang_cocok": "Perlindungan & Jaminan Sosial, Rehabilitasi Sosial, Pemberdayaan Sosial, Fakir Miskin, Dukcapil",
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor kemiripan 0.32 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "skor_tupoksi": 0.415,
+    "bidang_cocok": "Penanganan Fakir Miskin",
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.415 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Korupsi sudah terlalu sering terjadi hingga sebagian masyarakat nyaris kebal mendengarnya.",
@@ -713,9 +713,9 @@
     "actionable": "tinjau",
     "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
     "dasar_hukum": "-",
-    "skor_tupoksi": 0.212,
-    "bidang_cocok": "Cipta Karya",
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor kemiripan 0.212 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "skor_tupoksi": 0.322,
+    "bidang_cocok": "Perlindungan Masyarakat (Linmas)",
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.322 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Momentum Hari Bhayangkara ke-80 ini juga menjadi bukti komitmen Polda Jambi dalam terus memperkuat kolaborasi dengan seluruh elemen bangsa, mulai dari pemerintah, TNI, komunitas olahraga, hingga masyarakat luas demi mewujudkan situasi kamtibmas yang aman, damai, dan kondusif di Provinsi Jambi.",
@@ -983,12 +983,12 @@
     "source_url": "https://amuranews.id/jambi-siaga-karhutla-kapolda-pembakar-hutan-jangan-berharap-ampun/",
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
-    "actionable": "tinjau",
-    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
-    "dasar_hukum": "-",
-    "skor_tupoksi": 0.503,
-    "bidang_cocok": "Perbenihan & Produksi, Pengembangan & Penyuluhan, Prasarana & Perlindungan, Pengolahan & Pemasaran",
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor kemiripan 0.503 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "actionable": "ya",
+    "dinas": "Dinas Lingkungan Hidup",
+    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 52 Tahun 2016",
+    "skor_tupoksi": 0.596,
+    "bidang_cocok": "Penaatan Lingkungan",
+    "rekomendasi": "Keluhan diteruskan ke Dinas Lingkungan Hidup — Bidang Penaatan Lingkungan (dasar: Peraturan Gubernur Jambi Nomor 52 Tahun 2016), yang menyelenggarakan fungsi: Penanganan pengaduan dan penegakan hukum lingkungan. Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
   },
   {
     "unit": "Forum ini menjadi sinyal kuat bahwa perang melawan Karhutla tidak bisa dilakukan sendiri-sendiri, melainkan membutuhkan kekuatan bersama antara pemerintah, aparat penegak hukum, kampus, dunia usaha, dan masyarakat.",
@@ -1016,12 +1016,12 @@
     "source_url": "https://amuranews.id/jambi-siaga-karhutla-kapolda-pembakar-hutan-jangan-berharap-ampun/",
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
-    "actionable": "tinjau",
-    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
-    "dasar_hukum": "-",
-    "skor_tupoksi": 0.398,
-    "bidang_cocok": "Perbenihan & Produksi, Pengembangan & Penyuluhan, Prasarana & Perlindungan, Pengolahan & Pemasaran",
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor kemiripan 0.398 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "actionable": "ya",
+    "dinas": "Satpol PP & Damkar",
+    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 30 Tahun 2024 (SOTK)",
+    "skor_tupoksi": 0.561,
+    "bidang_cocok": "Pemadam Kebakaran (Damkar)",
+    "rekomendasi": "Keluhan diteruskan ke Satpol PP & Damkar — Bidang Pemadam Kebakaran (Damkar) (dasar: Peraturan Gubernur Jambi Nomor 30 Tahun 2024 (SOTK)), yang menyelenggarakan fungsi: Pencegahan, pengendalian, dan penanggulangan kebakaran serta penyelamatan. Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
   },
   {
     "unit": "RKS Siap Mengawal Aspirasi hingga Tingkat Pembahasan Kebijakan\nDi hadapan puluhan warga Legok Sungai Putri, RKS menyampaikan bahwa setiap aspirasi yang masuk tidak hanya dicatat, tetapi akan dikawal secara langsung hingga tahap pembahasan anggaran dan realisasi program.",
