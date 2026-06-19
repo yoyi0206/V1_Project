@@ -1372,5 +1372,68 @@
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
+  },
+  {
+    "unit": "“Hari ini kita menyerahkan beras cadangan pangan pemerintah daerah kepada masyarakat yang terdampak bencana banjir di Sarolangun.",
+    "level": "tak jelas",
+    "source_url": "https://aksatanews.com/gubernur-al-haris-serahkan-10189-kg-beras-untuk-korban-pasca-bencana-banjir-di-sarolangun",
+    "tanggal_ambil": "2026-06-18",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "Bantuan itu akan diberikan kepada warga terdampak banjir di empat kecamatan dengan jumlah penerima sekitar 6.000 jiwa.",
+    "level": "tak jelas",
+    "source_url": "https://aksatanews.com/gubernur-al-haris-serahkan-10189-kg-beras-untuk-korban-pasca-bencana-banjir-di-sarolangun",
+    "tanggal_ambil": "2026-06-18",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "Al Haris mengatakan pencegahan karhutla selama ini kerap dianggap hanya menjadi tugas Satgas Karhutla, Manggala Agni, Masyarakat Peduli Api, TNI, Polri, dan pemerintah daerah.",
+    "level": "tak jelas",
+    "source_url": "https://aksatanews.com/kuliah-umum-di-unja-gubernur-al-haris-ajak-mahasiswa-jadi-agen-pencegah-karhutla",
+    "tanggal_ambil": "2026-06-18",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "Belum lagi kesehatan masyarakat terganggu, sekolah dihentikan sementara, dan transportasi terganggu,\" katanya.",
+    "level": "tak jelas",
+    "source_url": "https://aksatanews.com/kuliah-umum-di-unja-gubernur-al-haris-ajak-mahasiswa-jadi-agen-pencegah-karhutla",
+    "tanggal_ambil": "2026-06-18",
+    "sentimen": "negatif",
+    "actionable": "ya",
+    "dinas": "Dinas Pekerjaan Umum dan Tata Ruang (PUTR)",
+    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 27 Tahun 2025",
+    "skor_tupoksi": 0.538,
+    "bidang_cocok": "Bina Marga",
+    "rekomendasi": "Keluhan diteruskan ke Dinas Pekerjaan Umum dan Tata Ruang (PUTR) — Bidang Bina Marga (dasar: Peraturan Gubernur Jambi Nomor 27 Tahun 2025), yang menyelenggarakan fungsi: Penyelenggaraan, pembangunan, preservasi, dan pemeliharaan jalan serta jembatan berdasarkan wilayah kewenangan., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
+  },
+  {
+    "unit": "Menurutnya, mahasiswa dapat menjadi jembatan edukasi antara pemerintah dan masyarakat.",
+    "level": "tak jelas",
+    "source_url": "https://aksatanews.com/kuliah-umum-di-unja-gubernur-al-haris-ajak-mahasiswa-jadi-agen-pencegah-karhutla",
+    "tanggal_ambil": "2026-06-18",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "Masyarakat berharap Dinas Pendidikan Kota Batam dapat melakukan verifikasi secara menyeluruh serta menyampaikan hasilnya secara transparan kepada publik.",
+    "level": "tak jelas",
+    "source_url": "https://awasi.id/read/2026/06/17/6096/rdp-komisi-iv-ungkap-kb-djuwita-prakarsa-belum-memiliki-npsn-publik-pertanyakan-tata-kelola-pendidikan/",
+    "tanggal_ambil": "2026-06-18",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
   }
 ]
