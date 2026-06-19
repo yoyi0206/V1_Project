@@ -232,7 +232,10 @@ DATA_FILE = "data.csv"
 RELEVAN = re.compile(r"\b(pemprov|pemerintah|gubernur|dinas|opd|dprd|pelayanan|layanan|publik|"
     r"jalan|jembatan|infrastruktur|drainase|banjir|rsud|rumah sakit|puskesmas|kesehatan|pasien|"
     r"sekolah|pendidikan|guru|sma|smk|izin|perizinan|anggaran|apbd|pungli|korupsi|proyek|"
-    r"air bersih|pdam|sampah|lingkungan|keluhan|mengeluh|dikeluhkan|disorot|protes|aspirasi|pengaduan)\b", re.I)
+    r"air bersih|pdam|sampah|lingkungan|keluhan|mengeluh|dikeluhkan|disorot|protes|aspirasi|pengaduan)"
+    r"bantuan sosial|bansos|subsidi|harga pangan|pasar|harga barang|inflasi|pupuk|nelayan|petani|"
+    r"lampu jalan|penerangan|trotoar|kemacetan|parkir|birokrasi|administrasi|ktp|kk|disdukcapil|"
+    r"layanan digital|antrean|pelayanan prima|kinerja|transparansi|akuntabilitas|tindak lanjut)\b", re.I)
 NOISE = re.compile(r"\b(lirik|lagu|chord|zodiak|resep|open bo|video syur|gisel|artis|"
     r"harga (hp|motor|mobil|emas)|vario|nmax|promo|nonton|streaming|drakor|prediksi skor|klasemen|liga)\b", re.I)
 
