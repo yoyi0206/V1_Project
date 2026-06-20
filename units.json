@@ -472,7 +472,7 @@
     "bidang_cocok": "Penanganan Pengaduan dan Dugaan Penyimpangan",
     "dinas_terkait": [],
     "jumlah_opd_terkait": 0,
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.525 di bawah ambang 0.58). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.525 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Dialog publik ini menjadi momentum penting dalam membangun kesadaran kolektif bahwa persoalan sampah bukan hanya urusan pemerintah semata, melainkan tanggung jawab bersama seluruh elemen masyarakat.",
@@ -657,7 +657,7 @@
     "bidang_cocok": "Penanganan Pengaduan dan Dugaan Penyimpangan",
     "dinas_terkait": [],
     "jumlah_opd_terkait": 0,
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.515 di bawah ambang 0.58). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.515 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Hampir setiap pekan masyarakat membaca berita tentang penyalahgunaan anggaran negara, suap proyek, jual beli jabatan, manipulasi pengadaan barang dan jasa, hingga berbagai bentuk kejahatan yang dilakukan oleh mereka yang seharusnya menjadi pelayan rakyat.",
@@ -672,7 +672,7 @@
     "bidang_cocok": "Penanganan Pengaduan dan Dugaan Penyimpangan",
     "dinas_terkait": [],
     "jumlah_opd_terkait": 0,
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.482 di bawah ambang 0.58). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.482 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Uang yang seharusnya digunakan untuk membangun sekolah, memperbaiki rumah sakit, membuka lapangan pekerjaan, membantu petani, nelayan, dan masyarakat miskin, justru mengalir ke kantong-kantong pribadi para pelaku korupsi.",
@@ -687,7 +687,7 @@
     "bidang_cocok": "Penanganan Fakir Miskin",
     "dinas_terkait": [],
     "jumlah_opd_terkait": 0,
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.54 di bawah ambang 0.58). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.54 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Dalam situasi seperti ini, muncul pula kekhawatiran masyarakat terhadap berbagai program strategis yang menggunakan anggaran sangat besar.",
@@ -712,7 +712,7 @@
     "bidang_cocok": "Penanganan Pengaduan dan Dugaan Penyimpangan",
     "dinas_terkait": [],
     "jumlah_opd_terkait": 0,
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.448 di bawah ambang 0.58). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.448 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Korupsi sudah terlalu sering terjadi hingga sebagian masyarakat nyaris kebal mendengarnya.",
@@ -720,14 +720,21 @@
     "source_url": "https://amuranews.id/demo-mahasiswa-di-berbagai-kota-ketika-kekecewaan-rakyat-tak-lagi-mampu-dibungkam/",
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
-    "actionable": "tinjau",
-    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
-    "dasar_hukum": "-",
+    "actionable": "ya",
+    "dinas": "Inspektorat Daerah",
+    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 18 Tahun 2020",
     "skor_tupoksi": 0.554,
     "bidang_cocok": "Penanganan Pengaduan dan Dugaan Penyimpangan",
-    "dinas_terkait": [],
-    "jumlah_opd_terkait": 0,
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.554 di bawah ambang 0.58). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "dinas_terkait": [
+      {
+        "opd": "Inspektorat Daerah",
+        "skor_tupoksi": 0.554,
+        "bidang_cocok": "Penanganan Pengaduan dan Dugaan Penyimpangan",
+        "dasar_hukum": "Peraturan Gubernur Jambi Nomor 18 Tahun 2020"
+      }
+    ],
+    "jumlah_opd_terkait": 1,
+    "rekomendasi": "Keluhan diteruskan ke Inspektorat Daerah — Bidang Penanganan Pengaduan dan Dugaan Penyimpangan (dasar: Peraturan Gubernur Jambi Nomor 18 Tahun 2020). Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
   },
   {
     "unit": "Momentum Hari Bhayangkara ke-80 ini juga menjadi bukti komitmen Polda Jambi dalam terus memperkuat kolaborasi dengan seluruh elemen bangsa, mulai dari pemerintah, TNI, komunitas olahraga, hingga masyarakat luas demi mewujudkan situasi kamtibmas yang aman, damai, dan kondusif di Provinsi Jambi.",
@@ -1043,14 +1050,21 @@
     "source_url": "https://amuranews.id/jambi-siaga-karhutla-kapolda-pembakar-hutan-jangan-berharap-ampun/",
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
-    "actionable": "tinjau",
-    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
-    "dasar_hukum": "-",
+    "actionable": "ya",
+    "dinas": "Satpol PP & Damkar",
+    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 30 Tahun 2024 (SOTK)",
     "skor_tupoksi": 0.561,
     "bidang_cocok": "Pemadam Kebakaran (Damkar)",
-    "dinas_terkait": [],
-    "jumlah_opd_terkait": 0,
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.561 di bawah ambang 0.58). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "dinas_terkait": [
+      {
+        "opd": "Satpol PP & Damkar",
+        "skor_tupoksi": 0.561,
+        "bidang_cocok": "Pemadam Kebakaran (Damkar)",
+        "dasar_hukum": "Peraturan Gubernur Jambi Nomor 30 Tahun 2024 (SOTK)"
+      }
+    ],
+    "jumlah_opd_terkait": 1,
+    "rekomendasi": "Keluhan diteruskan ke Satpol PP & Damkar — Bidang Pemadam Kebakaran (Damkar) (dasar: Peraturan Gubernur Jambi Nomor 30 Tahun 2024 (SOTK)). Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
   },
   {
     "unit": "RKS Siap Mengawal Aspirasi hingga Tingkat Pembahasan Kebijakan\nDi hadapan puluhan warga Legok Sungai Putri, RKS menyampaikan bahwa setiap aspirasi yang masuk tidak hanya dicatat, tetapi akan dikawal secara langsung hingga tahap pembahasan anggaran dan realisasi program.",
@@ -1445,7 +1459,7 @@
     "bidang_cocok": "Penanganan Fakir Miskin",
     "dinas_terkait": [],
     "jumlah_opd_terkait": 0,
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.405 di bawah ambang 0.58). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.405 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Menurutnya, mahasiswa dapat menjadi jembatan edukasi antara pemerintah dan masyarakat.",
@@ -1570,7 +1584,7 @@
     "bidang_cocok": "Pendapatan Daerah",
     "dinas_terkait": [],
     "jumlah_opd_terkait": 0,
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.464 di bawah ambang 0.58). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.464 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Beberapa warga mengeluhkan bahwa harga penjualan gas subsidi di pasar lokal melampaui Harga Eceran Tertinggi (HET) yang ditetapkan pemerintah.",
@@ -1685,7 +1699,7 @@
     "bidang_cocok": "Pemberdayaan Sosial",
     "dinas_terkait": [],
     "jumlah_opd_terkait": 0,
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.476 di bawah ambang 0.58). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor tertinggi 0.476 di bawah ambang 0.55). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "RDP tersebut merupakan tindak lanjut dari pertemuan sebelumnya pada 21 April 2026 sekaligus merespons aspirasi masyarakat yang disampaikan melalui surat Aliansi Rakyat Parit Menggugat Nomor 06/ARPM/IV/2026 tentang penyampaian pendapat di muka umum.",
