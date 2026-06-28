@@ -134,7 +134,7 @@
     "level": "tak jelas",
     "source_url": "https://aksatanews.com/gubernur-al-haris-dampingi-menteri-hukum-supratman-andi-resmikan-1585-posbankum-di-jambi",
     "tanggal_ambil": "2026-06-15",
-    "sentimen": "netral",
+    "sentimen": "positif",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -234,10 +234,13 @@
     "level": "tak jelas",
     "source_url": "https://aksatanews.com/al-haris-jalan-kaki-bersama-jusuf-kalla-hadiri-resepsi-puncak-satu-abad-nu",
     "tanggal_ambil": "2026-06-15",
-    "sentimen": "netral",
-    "actionable": "",
-    "dinas": "",
-    "dasar_hukum": ""
+    "sentimen": "negatif",
+    "actionable": "tinjau",
+    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
+    "dasar_hukum": "-",
+    "skor_tupoksi": 0.321,
+    "bidang_cocok": "Perlindungan Masyarakat (Linmas)",
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.321 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Kegiatan ini menjadi simbol kuat komitmen pemerintah daerah dan masyarakat dalam menjaga ketahanan pangan sekaligus mempertahankan lahan pertanian dari ancaman alih fungsi.",
@@ -597,7 +600,7 @@
     "level": "tak jelas",
     "source_url": "https://aksesjambi.com/news/15/06/2026/motor-listrik-honda-kini-mulai-rp15-jutaan-sudah-termasuk-baterai-charger/",
     "tanggal_ambil": "2026-06-16",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -647,10 +650,13 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/demo-mahasiswa-di-berbagai-kota-ketika-kekecewaan-rakyat-tak-lagi-mampu-dibungkam/",
     "tanggal_ambil": "2026-06-16",
-    "sentimen": "netral",
-    "actionable": "",
-    "dinas": "",
-    "dasar_hukum": ""
+    "sentimen": "negatif",
+    "actionable": "ya",
+    "dinas": "Inspektorat Daerah",
+    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 18 Tahun 2020",
+    "skor_tupoksi": 0.515,
+    "bidang_cocok": "Penanganan Pengaduan dan Dugaan Penyimpangan",
+    "rekomendasi": "Keluhan diteruskan ke Inspektorat Daerah — Bidang Penanganan Pengaduan dan Dugaan Penyimpangan (dasar: Peraturan Gubernur Jambi Nomor 18 Tahun 2020), yang menyelenggarakan fungsi: Penanganan pengaduan masyarakat, dugaan korupsi, penyalahgunaan wewenang, dan penyimpangan (whistleblowing); pemeriksaan khusus., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
   },
   {
     "unit": "Hampir setiap pekan masyarakat membaca berita tentang penyalahgunaan anggaran negara, suap proyek, jual beli jabatan, manipulasi pengadaan barang dan jasa, hingga berbagai bentuk kejahatan yang dilakukan oleh mereka yang seharusnya menjadi pelayan rakyat.",
@@ -729,7 +735,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/irjen-pol-krisno-halomoan-siregar-s-i-k-m-h-resmi-jabat-kapolda-jambi/",
     "tanggal_ambil": "2026-06-16",
-    "sentimen": "netral",
+    "sentimen": "positif",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -879,7 +885,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/tps-sungai-putri-dibongkar-jambi-bersinar/",
     "tanggal_ambil": "2026-06-16",
-    "sentimen": "netral",
+    "sentimen": "positif",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -909,7 +915,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/tps-sungai-putri-dibongkar-jambi-bersinar/",
     "tanggal_ambil": "2026-06-16",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -1145,7 +1151,7 @@
     "level": "tak jelas",
     "source_url": "https://aksara24.id/2023/10/27/jasa-raharja-cabang-jambi-sampaikan-santunan-korban-kecelakaan-di-jalan-lintas-timur-km-296/",
     "tanggal_ambil": "2026-06-16",
-    "sentimen": "netral",
+    "sentimen": "positif",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -1165,7 +1171,7 @@
     "level": "tak jelas",
     "source_url": "https://aksara24.id/2025/01/10/wamen-bumn-puji-kolaborasi-tim-pembina-samsat-nasional-dalam-meningkatkan-kepatuhan-pajak-kendaraan/",
     "tanggal_ambil": "2026-06-16",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -1704,7 +1710,7 @@
     "level": "tak jelas",
     "source_url": "https://awasi.id/read/2026/06/09/6038/layanan-kesehatan-gratis-rutan-batam-gelar-edukasi-dan-pemeriksaan-vct-mobile-untuk-warga-binaan/",
     "tanggal_ambil": "2026-06-20",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2237,7 +2243,7 @@
     "level": "tak jelas",
     "source_url": "https://awasi.id/read/2026/05/29/5840/polres-tanjab-barat-serentak-pasang-stiker-layanan-darurat-110-pada-kendaraan-operasional/",
     "tanggal_ambil": "2026-06-23",
-    "sentimen": "netral",
+    "sentimen": "positif",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2397,7 +2403,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/polda-jambi-gelar-ziarah-rombongan-hari-bhayangkara-ke-80-kenang-jasa-dan-semangat-pengabdian-pahlawan-bhayangkara/",
     "tanggal_ambil": "2026-06-24",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2497,7 +2503,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/sakral-dan-penuh-makna-polda-jambi-ikuti-upacara-nilai-nilai-tribrata-jelang-hari-bhayangkara-ke-80/",
     "tanggal_ambil": "2026-06-25",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2517,7 +2523,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/peringati-hari-bhayangkara-ke-80-polda-jambi-tabur-bunga-di-kuala-tungkal-hingga-salurkan-bantuan-untuk-nelayan/",
     "tanggal_ambil": "2026-06-25",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2577,7 +2583,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/tabur-bunga-di-makam-pahlawan-polda-jambi-teguhkan-semangat-pengabdian-di-hari-bhayangkara-ke-80/",
     "tanggal_ambil": "2026-06-25",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -3217,7 +3223,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/danrem-042-gapu-brigjen-tni-nyamin-tegaskan-komitmen-perang-melawan-narkoba-di-peringatan-hani-2026/",
     "tanggal_ambil": "2026-06-27",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -3317,6 +3323,146 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/mutasi-besar-di-polda-jambi-sejumlah-pejabat-strategis-berganti-posisi/",
     "tanggal_ambil": "2026-06-27",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "Midar, Kabid di Dinas Pemberdayaan Masyarakat Desa (PMD) yang menangani pemerintahan desa, memilih berlindung di balik hierarki.",
+    "level": "tak jelas",
+    "source_url": "https://bacahukum.com/2026/06/25/ngotot-diperingatkan-hakim-panitia-paw-kades-benteng-rendah-jalan-terus-gelar-pemilihan/",
+    "tanggal_ambil": "2026-06-28",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "Surat yang ditulis oleh “Putra Sarolangun sebagai Masyarakat yang diduga juga salah satu ASN yang Menginginkan Transparansi” itu kini menjadi senjata perlawanan kaum birokrat yang selama ini disebut hidup dalam tekanan.",
+    "level": "tak jelas",
+    "source_url": "https://bacahukum.com/2026/06/24/hak-asn-dipaketnya-giliran-bayar-tutup-mata-skandal-gaji-ke-13-di-batang-hari-minta-darah-kejati-jambi/",
+    "tanggal_ambil": "2026-06-28",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "Pemohon juga menilai bahwa perkembangan masyarakat saat ini menunjukkan semakin banyak perempuan yang memiliki kesempatan dan kemampuan yang sama untuk berpartisipasi dalam dunia kerja maupun ruang publik.",
+    "level": "tak jelas",
+    "source_url": "https://bacahukum.com/2026/06/24/mk-tegaskan-pasal-uu-perkawinan-tidak-melarang-istri-bekerja-dan-mencari-nafkah/",
+    "tanggal_ambil": "2026-06-28",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "Masyarakat juga dianjurkan melakukan pengecekan status tanah secara menyeluruh sebelum melakukan transaksi agar dapat mengetahui kondisi administrasi bidang tanah yang akan dibeli.",
+    "level": "tak jelas",
+    "source_url": "https://bacahukum.com/2026/06/24/atr-bpn-ingatkan-pemilik-sertifikat-lama-risiko-tumpang-tindih-masih-mengintai/",
+    "tanggal_ambil": "2026-06-28",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "Pemerintah Kota Jambi, lanjut Diza, akan terus mendukung berbagai kegiatan keagamaan yang melibatkan masyarakat luas.",
+    "level": "tak jelas",
+    "source_url": "https://bacahukum.com/2026/03/06/wawako-jambi-diza-dorong-pesantren-ramadan-dan-majelis-taklim-bangun-masyarakat-religius/",
+    "tanggal_ambil": "2026-06-28",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "Hal ini sejalan dengan upaya pemerintah dalam mewujudkan masyarakat yang religius, rukun, dan memiliki kepedulian sosial yang tinggi.",
+    "level": "tak jelas",
+    "source_url": "https://bacahukum.com/2026/03/06/wawako-jambi-diza-dorong-pesantren-ramadan-dan-majelis-taklim-bangun-masyarakat-religius/",
+    "tanggal_ambil": "2026-06-28",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "Menurutnya, sinergi antara pemerintah, tokoh agama, dan masyarakat menjadi kunci penting dalam membangun kehidupan sosial yang harmonis serta memperkuat ukhuwah Islamiyah di tengah masyarakat.",
+    "level": "tak jelas",
+    "source_url": "https://bacahukum.com/2026/03/06/wawako-jambi-diza-dorong-pesantren-ramadan-dan-majelis-taklim-bangun-masyarakat-religius/",
+    "tanggal_ambil": "2026-06-28",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "“Sinergi antara pemerintah dan masyarakat sangat penting untuk memajukan adat dan tradisi kami,” tambahnya.",
+    "level": "tak jelas",
+    "source_url": "https://bacahukum.com/2025/07/03/meriahkan-hut-pertama-kbrj-jambi-sematkan-gelar-tuanku-suri-marajo-alam-ke-bupati-bungo/",
+    "tanggal_ambil": "2026-06-28",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "BacaHukum.com – Pemerintah terus mematangkan Rancangan Undang-Undang (RUU) tentang Perubahan atas Undang-Undang Nomor 39 Tahun 1999 tentang Hak Asasi Manusia (HAM) sebagai upaya menjawab tantangan perlindungan hak warga negara di era digital.",
+    "level": "tak jelas",
+    "source_url": "https://bacahukum.com/2026/06/23/revisi-uu-ham-hadirkan-hak-untuk-dilupakan-di-ruang-digital-dan-perlindungan-aktivis-dari-kriminalisasi/",
+    "tanggal_ambil": "2026-06-28",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "Dalam pengelolaannya, pemerintah berencana membentuk komite khusus yang melibatkan unsur masyarakat sipil, kalangan akademisi, serta perwakilan pemerintah.",
+    "level": "tak jelas",
+    "source_url": "https://bacahukum.com/2026/06/23/revisi-uu-ham-hadirkan-hak-untuk-dilupakan-di-ruang-digital-dan-perlindungan-aktivis-dari-kriminalisasi/",
+    "tanggal_ambil": "2026-06-28",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "Keberadaan dana abadi tersebut diharapkan dapat memperkuat berbagai program perlindungan HAM, pendidikan demokrasi, hingga pendampingan masyarakat yang selama ini dijalankan oleh organisasi masyarakat sipil.",
+    "level": "tak jelas",
+    "source_url": "https://bacahukum.com/2026/06/23/revisi-uu-ham-hadirkan-hak-untuk-dilupakan-di-ruang-digital-dan-perlindungan-aktivis-dari-kriminalisasi/",
+    "tanggal_ambil": "2026-06-28",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "Dukungan bagi Pendamping Masyarakat Adat\nPemerintah juga membuka peluang bagi organisasi yang bergerak di bidang demokrasi dan HAM untuk memperoleh dukungan pendanaan melalui mekanisme yang akan diatur lebih lanjut.",
+    "level": "tak jelas",
+    "source_url": "https://bacahukum.com/2026/06/23/revisi-uu-ham-hadirkan-hak-untuk-dilupakan-di-ruang-digital-dan-perlindungan-aktivis-dari-kriminalisasi/",
+    "tanggal_ambil": "2026-06-28",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "“Dukungan finansial tersebut diharapkan mampu memperkuat kerja para pendamping masyarakat adat hingga akar rumput dalam menjangkau area-area yang selama ini belum tersentuh oleh pemerintah,” jelasnya.",
+    "level": "tak jelas",
+    "source_url": "https://bacahukum.com/2026/06/23/revisi-uu-ham-hadirkan-hak-untuk-dilupakan-di-ruang-digital-dan-perlindungan-aktivis-dari-kriminalisasi/",
+    "tanggal_ambil": "2026-06-28",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
+  },
+  {
+    "unit": "ASN Batanghari Kena Prank dan Di-PHP oleh Kaban Bakeuda Tesar Arlin Admin28 Februari 202528 Februari 202515 mins\nBerita Pasca Heboh Sengketa Pilkada, 5 Mobil Dinas KPU Bungo Ditarik Admin28 Februari 202528 Februari 202502 mins\nBerita Kerap Meresahkan, Warga Kota Jambi Ramai-ramai Tangkap Geng Motor Admin28 Februari 202528 Februari 202504 mins\nBerita Tilang Manual di Jambi Melonjak, Tapi Angka Kecelakaan Justru Menurun Admin27 Februari 202527 Februari 202503 mins\nBerita BPK RI Perwakilan Jambi Gelar Pemeriksaan Mendalam di Islamic Center Batanghari: Dugaan Kuat Korupsi dan Penyimpangan Anggaran Rp20 Miliar Admin27 Februari 202527 Februari 202505 mins",
+    "level": "tak jelas",
+    "source_url": "https://bacahukum.com/2025/02/",
+    "tanggal_ambil": "2026-06-28",
     "sentimen": "netral",
     "actionable": "",
     "dinas": "",
