@@ -84,7 +84,7 @@
     "level": "tak jelas",
     "source_url": "https://aksatanews.com/gubernur-al-haris-pentingnya-penguatan-nasionalisme-dan-kedisplinan-asn",
     "tanggal_ambil": "2026-06-15",
-    "sentimen": "netral",
+    "sentimen": "positif",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -134,7 +134,7 @@
     "level": "tak jelas",
     "source_url": "https://aksatanews.com/gubernur-al-haris-dampingi-menteri-hukum-supratman-andi-resmikan-1585-posbankum-di-jambi",
     "tanggal_ambil": "2026-06-15",
-    "sentimen": "netral",
+    "sentimen": "positif",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -234,20 +234,17 @@
     "level": "tak jelas",
     "source_url": "https://aksatanews.com/al-haris-jalan-kaki-bersama-jusuf-kalla-hadiri-resepsi-puncak-satu-abad-nu",
     "tanggal_ambil": "2026-06-15",
-    "sentimen": "negatif",
-    "actionable": "tinjau",
-    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
-    "dasar_hukum": "-",
-    "skor_tupoksi": 0.451,
-    "bidang_cocok": "Penanganan Pengaduan dan Dugaan Penyimpangan",
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.451 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
   },
   {
     "unit": "Kegiatan ini menjadi simbol kuat komitmen pemerintah daerah dan masyarakat dalam menjaga ketahanan pangan sekaligus mempertahankan lahan pertanian dari ancaman alih fungsi.",
     "level": "tak jelas",
     "source_url": "https://aksatanews.com/gerak-tanam-padi-perdana-di-merangin-al-haris-tegaskan-komitmen-jambi-jaga-ketahanan-pangan",
     "tanggal_ambil": "2026-06-15",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -367,7 +364,7 @@
     "level": "kota",
     "source_url": "https://aksesjambi.com/news/11/06/2026/hesti-haris-ajak-masyarakat-membumikan-budaya-sholawat-di-jambi/",
     "tanggal_ambil": "2026-06-15",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -377,7 +374,7 @@
     "level": "tak jelas",
     "source_url": "https://aksesjambi.com/news/10/06/2026/rabu-berkah-tp-pkk-jambi-bersama-dinas-pendidikan-bagikan-sarapan-bergizi-untuk-masyarakat/",
     "tanggal_ambil": "2026-06-15",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -427,7 +424,7 @@
     "level": "tak jelas",
     "source_url": "https://aksesjambi.com/news/10/06/2026/rabu-berkah-tp-pkk-jambi-bersama-dinas-pendidikan-bagikan-sarapan-bergizi-untuk-masyarakat/",
     "tanggal_ambil": "2026-06-15",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -468,12 +465,12 @@
     "source_url": "https://amuranews.id/negeri-yang-mulai-kehilangan-rasa-hormat/",
     "tanggal_ambil": "2026-06-15",
     "sentimen": "negatif",
-    "actionable": "tinjau",
-    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
-    "dasar_hukum": "-",
-    "skor_tupoksi": 0.477,
+    "actionable": "ya",
+    "dinas": "Inspektorat Daerah",
+    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 18 Tahun 2020",
+    "skor_tupoksi": 0.525,
     "bidang_cocok": "Penanganan Pengaduan dan Dugaan Penyimpangan",
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.477 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "rekomendasi": "Keluhan diteruskan ke Inspektorat Daerah — Bidang Penanganan Pengaduan dan Dugaan Penyimpangan (dasar: Peraturan Gubernur Jambi Nomor 18 Tahun 2020), yang menyelenggarakan fungsi: Penanganan pengaduan masyarakat, dugaan korupsi, penyalahgunaan wewenang, dan penyimpangan (whistleblowing); pemeriksaan khusus., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
   },
   {
     "unit": "Dialog publik ini menjadi momentum penting dalam membangun kesadaran kolektif bahwa persoalan sampah bukan hanya urusan pemerintah semata, melainkan tanggung jawab bersama seluruh elemen masyarakat.",
@@ -654,7 +651,7 @@
     "actionable": "ya",
     "dinas": "Inspektorat Daerah",
     "dasar_hukum": "Peraturan Gubernur Jambi Nomor 18 Tahun 2020",
-    "skor_tupoksi": 0.579,
+    "skor_tupoksi": 0.515,
     "bidang_cocok": "Penanganan Pengaduan dan Dugaan Penyimpangan",
     "rekomendasi": "Keluhan diteruskan ke Inspektorat Daerah — Bidang Penanganan Pengaduan dan Dugaan Penyimpangan (dasar: Peraturan Gubernur Jambi Nomor 18 Tahun 2020), yang menyelenggarakan fungsi: Penanganan pengaduan masyarakat, dugaan korupsi, penyalahgunaan wewenang, dan penyimpangan (whistleblowing); pemeriksaan khusus., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
   },
@@ -664,12 +661,12 @@
     "source_url": "https://amuranews.id/demo-mahasiswa-di-berbagai-kota-ketika-kekecewaan-rakyat-tak-lagi-mampu-dibungkam/",
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
-    "actionable": "ya",
-    "dinas": "Inspektorat Daerah",
-    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 18 Tahun 2020",
-    "skor_tupoksi": 0.658,
+    "actionable": "tinjau",
+    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
+    "dasar_hukum": "-",
+    "skor_tupoksi": 0.482,
     "bidang_cocok": "Penanganan Pengaduan dan Dugaan Penyimpangan",
-    "rekomendasi": "Keluhan diteruskan ke Inspektorat Daerah — Bidang Penanganan Pengaduan dan Dugaan Penyimpangan (dasar: Peraturan Gubernur Jambi Nomor 18 Tahun 2020), yang menyelenggarakan fungsi: Penanganan pengaduan masyarakat, dugaan korupsi, penyalahgunaan wewenang, dan penyimpangan (whistleblowing); pemeriksaan khusus., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.482 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Uang yang seharusnya digunakan untuk membangun sekolah, memperbaiki rumah sakit, membuka lapangan pekerjaan, membantu petani, nelayan, dan masyarakat miskin, justru mengalir ke kantong-kantong pribadi para pelaku korupsi.",
@@ -678,11 +675,11 @@
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
     "actionable": "ya",
-    "dinas": "Inspektorat Daerah",
-    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 18 Tahun 2020",
-    "skor_tupoksi": 0.574,
-    "bidang_cocok": "Penanganan Pengaduan dan Dugaan Penyimpangan",
-    "rekomendasi": "Keluhan diteruskan ke Inspektorat Daerah — Bidang Penanganan Pengaduan dan Dugaan Penyimpangan (dasar: Peraturan Gubernur Jambi Nomor 18 Tahun 2020), yang menyelenggarakan fungsi: Penanganan pengaduan masyarakat, dugaan korupsi, penyalahgunaan wewenang, dan penyimpangan (whistleblowing); pemeriksaan khusus., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
+    "dinas": "Dinas Sosial, Kependudukan dan Pencatatan Sipil",
+    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 44 Tahun 2016",
+    "skor_tupoksi": 0.54,
+    "bidang_cocok": "Penanganan Fakir Miskin",
+    "rekomendasi": "Keluhan diteruskan ke Dinas Sosial, Kependudukan dan Pencatatan Sipil — Bidang Penanganan Fakir Miskin (dasar: Peraturan Gubernur Jambi Nomor 44 Tahun 2016), yang menyelenggarakan fungsi: Penanganan dan pemberdayaan fakir miskin., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
   },
   {
     "unit": "Dalam situasi seperti ini, muncul pula kekhawatiran masyarakat terhadap berbagai program strategis yang menggunakan anggaran sangat besar.",
@@ -700,12 +697,12 @@
     "source_url": "https://amuranews.id/demo-mahasiswa-di-berbagai-kota-ketika-kekecewaan-rakyat-tak-lagi-mampu-dibungkam/",
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
-    "actionable": "ya",
-    "dinas": "Inspektorat Daerah",
-    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 18 Tahun 2020",
-    "skor_tupoksi": 0.534,
+    "actionable": "tinjau",
+    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
+    "dasar_hukum": "-",
+    "skor_tupoksi": 0.448,
     "bidang_cocok": "Penanganan Pengaduan dan Dugaan Penyimpangan",
-    "rekomendasi": "Keluhan diteruskan ke Inspektorat Daerah — Bidang Penanganan Pengaduan dan Dugaan Penyimpangan (dasar: Peraturan Gubernur Jambi Nomor 18 Tahun 2020), yang menyelenggarakan fungsi: Penanganan pengaduan masyarakat, dugaan korupsi, penyalahgunaan wewenang, dan penyimpangan (whistleblowing); pemeriksaan khusus., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.448 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Korupsi sudah terlalu sering terjadi hingga sebagian masyarakat nyaris kebal mendengarnya.",
@@ -713,12 +710,12 @@
     "source_url": "https://amuranews.id/demo-mahasiswa-di-berbagai-kota-ketika-kekecewaan-rakyat-tak-lagi-mampu-dibungkam/",
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
-    "actionable": "tinjau",
-    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
-    "dasar_hukum": "-",
-    "skor_tupoksi": 0.435,
+    "actionable": "ya",
+    "dinas": "Inspektorat Daerah",
+    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 18 Tahun 2020",
+    "skor_tupoksi": 0.554,
     "bidang_cocok": "Penanganan Pengaduan dan Dugaan Penyimpangan",
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.435 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "rekomendasi": "Keluhan diteruskan ke Inspektorat Daerah — Bidang Penanganan Pengaduan dan Dugaan Penyimpangan (dasar: Peraturan Gubernur Jambi Nomor 18 Tahun 2020), yang menyelenggarakan fungsi: Penanganan pengaduan masyarakat, dugaan korupsi, penyalahgunaan wewenang, dan penyimpangan (whistleblowing); pemeriksaan khusus., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
   },
   {
     "unit": "Momentum Hari Bhayangkara ke-80 ini juga menjadi bukti komitmen Polda Jambi dalam terus memperkuat kolaborasi dengan seluruh elemen bangsa, mulai dari pemerintah, TNI, komunitas olahraga, hingga masyarakat luas demi mewujudkan situasi kamtibmas yang aman, damai, dan kondusif di Provinsi Jambi.",
@@ -915,7 +912,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/tps-sungai-putri-dibongkar-jambi-bersinar/",
     "tanggal_ambil": "2026-06-16",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -925,7 +922,7 @@
     "level": "kota",
     "source_url": "https://amuranews.id/tps-sungai-putri-dibongkar-jambi-bersinar/",
     "tanggal_ambil": "2026-06-16",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -987,11 +984,11 @@
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
     "actionable": "ya",
-    "dinas": "Satpol PP & Damkar",
-    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 30 Tahun 2024 (SOTK)",
-    "skor_tupoksi": 0.587,
-    "bidang_cocok": "Pemadam Kebakaran (Damkar)",
-    "rekomendasi": "Keluhan diteruskan ke Satpol PP & Damkar — Bidang Pemadam Kebakaran (Damkar) (dasar: Peraturan Gubernur Jambi Nomor 30 Tahun 2024 (SOTK)), yang menyelenggarakan fungsi: Pencegahan, pengendalian, dan penanggulangan kebakaran serta penyelamatan., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
+    "dinas": "Dinas Lingkungan Hidup",
+    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 52 Tahun 2016",
+    "skor_tupoksi": 0.596,
+    "bidang_cocok": "Penaatan Lingkungan",
+    "rekomendasi": "Keluhan diteruskan ke Dinas Lingkungan Hidup — Bidang Penaatan Lingkungan (dasar: Peraturan Gubernur Jambi Nomor 52 Tahun 2016), yang menyelenggarakan fungsi: Penanganan pengaduan dan penegakan hukum lingkungan., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
   },
   {
     "unit": "Forum ini menjadi sinyal kuat bahwa perang melawan Karhutla tidak bisa dilakukan sendiri-sendiri, melainkan membutuhkan kekuatan bersama antara pemerintah, aparat penegak hukum, kampus, dunia usaha, dan masyarakat.",
@@ -1020,11 +1017,11 @@
     "tanggal_ambil": "2026-06-16",
     "sentimen": "negatif",
     "actionable": "ya",
-    "dinas": "Dinas Lingkungan Hidup",
-    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 52 Tahun 2016",
-    "skor_tupoksi": 0.552,
-    "bidang_cocok": "Pengendalian Pencemaran dan Kerusakan Lingkungan",
-    "rekomendasi": "Keluhan diteruskan ke Dinas Lingkungan Hidup — Bidang Pengendalian Pencemaran dan Kerusakan Lingkungan (dasar: Peraturan Gubernur Jambi Nomor 52 Tahun 2016), yang menyelenggarakan fungsi: Pengendalian pencemaran air dan udara serta pengelolaan limbah B3., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
+    "dinas": "Satpol PP & Damkar",
+    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 30 Tahun 2024 (SOTK)",
+    "skor_tupoksi": 0.561,
+    "bidang_cocok": "Pemadam Kebakaran (Damkar)",
+    "rekomendasi": "Keluhan diteruskan ke Satpol PP & Damkar — Bidang Pemadam Kebakaran (Damkar) (dasar: Peraturan Gubernur Jambi Nomor 30 Tahun 2024 (SOTK)), yang menyelenggarakan fungsi: Pencegahan, pengendalian, dan penanggulangan kebakaran serta penyelamatan., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
   },
   {
     "unit": "RKS Siap Mengawal Aspirasi hingga Tingkat Pembahasan Kebijakan\nDi hadapan puluhan warga Legok Sungai Putri, RKS menyampaikan bahwa setiap aspirasi yang masuk tidak hanya dicatat, tetapi akan dikawal secara langsung hingga tahap pembahasan anggaran dan realisasi program.",
@@ -1061,7 +1058,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/rusli-kamal-siregar-gelar-reses-tegaskan-siap-mengawal-aspirasi-warga-tanpa-kompromi/",
     "tanggal_ambil": "2026-06-16",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -1171,7 +1168,7 @@
     "level": "tak jelas",
     "source_url": "https://aksara24.id/2025/01/10/wamen-bumn-puji-kolaborasi-tim-pembina-samsat-nasional-dalam-meningkatkan-kepatuhan-pajak-kendaraan/",
     "tanggal_ambil": "2026-06-16",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -1221,7 +1218,7 @@
     "level": "tak jelas",
     "source_url": "https://www.angsoduo.net/2026/06/pimpin-upacara-hut-damkar-ke-107-satpol-pp-ke-76-dan-satlinmas-ke-64-gubernur-al-haris-momentum-meningkatkan-pelayanan-kepada-masyarakat",
     "tanggal_ambil": "2026-06-16",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -1301,7 +1298,7 @@
     "level": "tak jelas",
     "source_url": "https://aksara24.id/2022/09/14/ketua-dprd-provinsi-jambi-apresiasi-pelaksanaan-regsosek-oleh-bps/",
     "tanggal_ambil": "2026-06-17",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -1412,12 +1409,12 @@
     "source_url": "https://aksatanews.com/kuliah-umum-di-unja-gubernur-al-haris-ajak-mahasiswa-jadi-agen-pencegah-karhutla",
     "tanggal_ambil": "2026-06-18",
     "sentimen": "negatif",
-    "actionable": "ya",
-    "dinas": "Dinas Pekerjaan Umum dan Tata Ruang (PUTR)",
-    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 27 Tahun 2025",
-    "skor_tupoksi": 0.538,
-    "bidang_cocok": "Bina Marga",
-    "rekomendasi": "Keluhan diteruskan ke Dinas Pekerjaan Umum dan Tata Ruang (PUTR) — Bidang Bina Marga (dasar: Peraturan Gubernur Jambi Nomor 27 Tahun 2025), yang menyelenggarakan fungsi: Penyelenggaraan, pembangunan, preservasi, dan pemeliharaan jalan serta jembatan berdasarkan wilayah kewenangan., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
+    "actionable": "tinjau",
+    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
+    "dasar_hukum": "-",
+    "skor_tupoksi": 0.405,
+    "bidang_cocok": "Penanganan Fakir Miskin",
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.405 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Menurutnya, mahasiswa dapat menjadi jembatan edukasi antara pemerintah dan masyarakat.",
@@ -1444,7 +1441,7 @@
     "level": "tak jelas",
     "source_url": "https://aksara24.id/2025/04/14/fadhil-arief-minta-perusahaan-csr-selaras-dengan-program-batanghari-super-tangguh/",
     "tanggal_ambil": "2026-06-19",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -1464,7 +1461,7 @@
     "level": "tak jelas",
     "source_url": "https://aksara24.id/2025/02/24/kolaborasi-ojk-dan-stakeholder-untuk-keuangan-syariah-yang-lebih-inklusif/",
     "tanggal_ambil": "2026-06-19",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -1535,12 +1532,12 @@
     "source_url": "https://aksara24.id/2023/08/05/warga-desa-koto-kandis-dendang-akui-kesulitan-dapatkan-gas-bersubsidi/",
     "tanggal_ambil": "2026-06-20",
     "sentimen": "negatif",
-    "actionable": "ya",
-    "dinas": "Dinas Ketahanan Pangan",
-    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 53 Tahun 2016",
-    "skor_tupoksi": 0.57,
-    "bidang_cocok": "Distribusi dan Cadangan Pangan",
-    "rekomendasi": "Keluhan diteruskan ke Dinas Ketahanan Pangan — Bidang Distribusi dan Cadangan Pangan (dasar: Peraturan Gubernur Jambi Nomor 53 Tahun 2016), yang menyelenggarakan fungsi: Pengelolaan distribusi, stabilisasi harga, dan cadangan pangan., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
+    "actionable": "tinjau",
+    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
+    "dasar_hukum": "-",
+    "skor_tupoksi": 0.464,
+    "bidang_cocok": "Pendapatan Daerah",
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.464 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Beberapa warga mengeluhkan bahwa harga penjualan gas subsidi di pasar lokal melampaui Harga Eceran Tertinggi (HET) yang ditetapkan pemerintah.",
@@ -1647,13 +1644,10 @@
     "level": "tak jelas",
     "source_url": "https://awasi.id/read/2026/04/24/5949/dprd-muaro-jambi-soroti-ketidakhadiran-perusahaan-dalam-rdp-aidi-hatta-kami-akan-panggil-kembali/",
     "tanggal_ambil": "2026-06-20",
-    "sentimen": "negatif",
-    "actionable": "tinjau",
-    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
-    "dasar_hukum": "-",
-    "skor_tupoksi": 0.496,
-    "bidang_cocok": "Penanganan Pengaduan dan Dugaan Penyimpangan",
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.496 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
   },
   {
     "unit": "RDP tersebut merupakan tindak lanjut dari pertemuan sebelumnya pada 21 April 2026 sekaligus merespons aspirasi masyarakat yang disampaikan melalui surat Aliansi Rakyat Parit Menggugat Nomor 06/ARPM/IV/2026 tentang penyampaian pendapat di muka umum.",
@@ -1710,7 +1704,7 @@
     "level": "tak jelas",
     "source_url": "https://awasi.id/read/2026/06/09/6038/layanan-kesehatan-gratis-rutan-batam-gelar-edukasi-dan-pemeriksaan-vct-mobile-untuk-warga-binaan/",
     "tanggal_ambil": "2026-06-20",
-    "sentimen": "netral",
+    "sentimen": "positif",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -1740,7 +1734,7 @@
     "level": "tak jelas",
     "source_url": "https://awasi.id/read/2026/06/08/6022/polres-tanjab-barat-borong-tiga-penghargaan-sekaligus-pada-rakernis-humas-polda-jambi-2026/",
     "tanggal_ambil": "2026-06-20",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -1790,7 +1784,7 @@
     "level": "tak jelas",
     "source_url": "https://aksara24.id/2025/04/28/kakanwil-ditjenpas-jambi-ikuti-tasyakuran-hbp-ke-61-bersama-menteri-imipas/",
     "tanggal_ambil": "2026-06-22",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2070,7 +2064,7 @@
     "level": "tak jelas",
     "source_url": "https://awasi.id/read/2026/06/03/5928/kapolda-jambi-dukung-pembinaan-generasi-muda-melalui-olahraga-kapolda-cup-basket-2026-siap-digelar-meriahkan-hut-bhayangkara-ke-80/",
     "tanggal_ambil": "2026-06-23",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2160,7 +2154,7 @@
     "level": "tak jelas",
     "source_url": "https://awasi.id/read/2026/06/02/5981/raih-opini-wtp-ketua-dprd-muaro-jambi-aidi-hatta-tegaskan-pengawasan-anggaran-harus-semakin-kuat/",
     "tanggal_ambil": "2026-06-23",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2204,7 +2198,7 @@
     "actionable": "ya",
     "dinas": "Inspektorat Daerah",
     "dasar_hukum": "Peraturan Gubernur Jambi Nomor 18 Tahun 2020",
-    "skor_tupoksi": 0.515,
+    "skor_tupoksi": 0.528,
     "bidang_cocok": "Penanganan Pengaduan dan Dugaan Penyimpangan",
     "rekomendasi": "Keluhan diteruskan ke Inspektorat Daerah — Bidang Penanganan Pengaduan dan Dugaan Penyimpangan (dasar: Peraturan Gubernur Jambi Nomor 18 Tahun 2020), yang menyelenggarakan fungsi: Penanganan pengaduan masyarakat, dugaan korupsi, penyalahgunaan wewenang, dan penyimpangan (whistleblowing); pemeriksaan khusus., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
   },
@@ -2333,7 +2327,7 @@
     "level": "tak jelas",
     "source_url": "https://aksara24.id/2022/09/25/prihatin-dampak-kenaikan-harga-bbm-polisi-bantu-paket-sembako-ke-sad/",
     "tanggal_ambil": "2026-06-24",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2383,7 +2377,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/polda-jambi-gelar-ziarah-rombongan-hari-bhayangkara-ke-80-kenang-jasa-dan-semangat-pengabdian-pahlawan-bhayangkara/",
     "tanggal_ambil": "2026-06-24",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2523,7 +2517,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/peringati-hari-bhayangkara-ke-80-polda-jambi-tabur-bunga-di-kuala-tungkal-hingga-salurkan-bantuan-untuk-nelayan/",
     "tanggal_ambil": "2026-06-25",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2533,7 +2527,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/peringati-hari-bhayangkara-ke-80-polda-jambi-tabur-bunga-di-kuala-tungkal-hingga-salurkan-bantuan-untuk-nelayan/",
     "tanggal_ambil": "2026-06-25",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2543,13 +2537,10 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/tinjau-samsat-tebo-al-haris-soroti-fasilitas-pelayanan-dan-peringatkan-soal-integritas-petugas/",
     "tanggal_ambil": "2026-06-25",
-    "sentimen": "negatif",
-    "actionable": "ya",
-    "dinas": "Dinas Pekerjaan Umum dan Tata Ruang (PUTR)",
-    "dasar_hukum": "Peraturan Gubernur Jambi Nomor 27 Tahun 2025",
-    "skor_tupoksi": 0.536,
-    "bidang_cocok": "Cipta Karya",
-    "rekomendasi": "Keluhan diteruskan ke Dinas Pekerjaan Umum dan Tata Ruang (PUTR) — Bidang Cipta Karya (dasar: Peraturan Gubernur Jambi Nomor 27 Tahun 2025), yang menyelenggarakan fungsi: Infrastruktur permukiman, penataan bangunan gedung, penyediaan air minum (SPAM), dan sanitasi/air limbah., Direkomendasikan agar bidang tersebut menindaklanjuti keluhan ini sesuai kewenangannya."
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
   },
   {
     "unit": "Menurutnya, kondisi tersebut perlu segera dibenahi agar masyarakat memperoleh pelayanan yang lebih baik.",
@@ -2586,7 +2577,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/tabur-bunga-di-makam-pahlawan-polda-jambi-teguhkan-semangat-pengabdian-di-hari-bhayangkara-ke-80/",
     "tanggal_ambil": "2026-06-25",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2626,13 +2617,10 @@
     "level": "tak jelas",
     "source_url": "https://aksara24.id/2024/06/10/kpu-rekrut-9-913-pantarlih-untuk-coklit-daftar-pemilih-pilkada-serentak-2024/",
     "tanggal_ambil": "2026-06-26",
-    "sentimen": "negatif",
-    "actionable": "tinjau",
-    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
-    "dasar_hukum": "-",
-    "skor_tupoksi": 0.493,
-    "bidang_cocok": "Bina Marga",
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.493 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
   },
   {
     "unit": "“Kami berharap kepada masyarakat yang nanti rumahnya dikunjungi Pantarlih bisa memperlihatkan KTP-El dan Kartu Keluarga atau KK,” harapnya.",
@@ -2669,7 +2657,7 @@
     "level": "tak jelas",
     "source_url": "https://www.arcomnews.com/2026/04/lounching-bank-sampah-sukses-bersinar.html",
     "tanggal_ambil": "2026-06-26",
-    "sentimen": "netral",
+    "sentimen": "positif",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2679,7 +2667,7 @@
     "level": "tak jelas",
     "source_url": "https://www.arcomnews.com/2026/04/lounching-bank-sampah-sukses-bersinar.html",
     "tanggal_ambil": "2026-06-26",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2693,9 +2681,9 @@
     "actionable": "tinjau",
     "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
     "dasar_hukum": "-",
-    "skor_tupoksi": 0.469,
-    "bidang_cocok": "Transmigrasi",
-    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.469 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+    "skor_tupoksi": 0.364,
+    "bidang_cocok": "Cipta Karya",
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.364 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
   },
   {
     "unit": "Tidak hanya itu, Bank Sampah juga akan mengembangkan program edukasi dan sosialisasi kepada masyarakat, termasuk rencana wisata edukasi pengolahan sampah menjadi produk yang bernilai guna.",
@@ -2782,7 +2770,7 @@
     "level": "tak jelas",
     "source_url": "https://www.arcomnews.com/2026/04/dprd-kota-jambi-dorong-peningkatan.html",
     "tanggal_ambil": "2026-06-26",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2882,7 +2870,7 @@
     "level": "kota",
     "source_url": "https://www.arcomnews.com/2026/04/ketua-pembina-posyandu-kota-jambi-dr-dr.html",
     "tanggal_ambil": "2026-06-26",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2912,7 +2900,7 @@
     "level": "tak jelas",
     "source_url": "https://www.arcomnews.com/2026/04/bima-arya-sebut-kampung-bahagia-kota.html",
     "tanggal_ambil": "2026-06-26",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -2982,7 +2970,7 @@
     "level": "tak jelas",
     "source_url": "https://www.arcomnews.com/2026/04/gerakan-indonesia-asri-di-danau-sipin.html",
     "tanggal_ambil": "2026-06-26",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -3062,7 +3050,7 @@
     "level": "tak jelas",
     "source_url": "https://www.arcomnews.com/2026/04/perkuat-layanan-publik-maulana-angkat.html",
     "tanggal_ambil": "2026-06-26",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -3122,7 +3110,7 @@
     "level": "tak jelas",
     "source_url": "https://www.arcomnews.com/2026/04/reses-ketua-dprd-kota-jambi-berujung.html",
     "tanggal_ambil": "2026-06-26",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -3232,7 +3220,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/danrem-042-gapu-brigjen-tni-nyamin-tegaskan-komitmen-perang-melawan-narkoba-di-peringatan-hani-2026/",
     "tanggal_ambil": "2026-06-27",
-    "sentimen": "netral",
+    "sentimen": "positif",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -3272,7 +3260,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/kombes-boy-siregar-dipercaya-pimpin-brimob-kalsel/",
     "tanggal_ambil": "2026-06-27",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -3292,7 +3280,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/kombes-boy-siregar-dipercaya-pimpin-brimob-kalsel/",
     "tanggal_ambil": "2026-06-27",
-    "sentimen": "netral",
+    "sentimen": "positif",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -3322,7 +3310,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/dari-muaro-jambi-ke-polda-akbp-heri-supriawan-raih-promosi-strategis/",
     "tanggal_ambil": "2026-06-27",
-    "sentimen": "netral",
+    "sentimen": "positif",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
@@ -3332,7 +3320,7 @@
     "level": "tak jelas",
     "source_url": "https://amuranews.id/mutasi-besar-di-polda-jambi-sejumlah-pejabat-strategis-berganti-posisi/",
     "tanggal_ambil": "2026-06-27",
-    "sentimen": "positif",
+    "sentimen": "netral",
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
