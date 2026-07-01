@@ -2,12 +2,31 @@
 # -*- coding: utf-8 -*-
 """
 scrape.py - pengumpul berita Jambi untuk GitHub Actions (jalan harian otomatis).
-TANPA IndoBERT/GPU. Hasil disimpan & ditambahkan ke data.csv (akumulatif, dedup URL).
-Klasifikasi sentimen dilakukan terpisah di Colab.
-+ FILTER LOKASI: hanya loloskan konten relevan Provinsi Jambi (buang Bengkulu dll).
+TANPA IndoBERT/GPU. Hasil disimpan & ditambahkan ke data.csv (akumulatif).
+
+DEDUP BERLAPIS (menggantikan dedup URL-saja yang lama):
+  1. Dedup URL          - artikel dari URL yang sama tidak diambil ulang.
+  2. Dedup EKSAK unit   - kalimat keluhan yang teksnya sama persis dibuang
+                          (menangani sindikasi: 1 rilis disalin banyak portal).
+  3. Dedup NEAR-DUP unit- kalimat keluhan yang MIRIP (Jaccard shingle >= AMBANG)
+                          dibuang walau tak persis sama (edit kecil/judul beda).
+  Cakupan: unit baru dicek terhadap SELURUH unit lama di data.csv DAN antar unit baru.
+
+Klasifikasi sentimen & atribusi tupoksi tetap terpisah di Colab (SEL 3).
 """
-import csv, re, os, sys, json
+import csv, re, os, sys, json, hashlib
 from datetime import datetime
+
+# ==== PARAMETER DEDUP (atur di sini) ====
+# STRATEGI: dedup EKSAK adalah lapis UTAMA (menangkap sindikasi copy-paste persis,
+#   yang paling umum di media lokal). Near-dup dibiarkan KETAT (ambang tinggi) agar
+#   hanya menangkap yang nyaris identik total -- MENGHINDARI risiko salah-buang
+#   keluhan berbeda yang kebetulan mirip. Jangan turunkan NEARDUP_AMBANG tanpa
+#   menguji ulang, karena kalimat keluhan pendek rentan salah-buang.
+NEARDUP_AMBANG = 0.85     # Jaccard >= ini dianggap near-duplicate (0..1). Sengaja TINGGI (aman).
+SHINGLE_K      = 4        # ukuran shingle (jumlah kata per potongan) untuk Jaccard.
+LSH_BANDS      = 8        # jumlah band MinHash-LSH (untuk mempercepat pencarian kandidat).
+MINHASH_PERM   = 32       # jumlah permutasi MinHash (lebih banyak = lebih akurat, lebih lambat).
 
 PORTAL_200 = [
     "https://adanu.co.id/",
@@ -240,12 +259,10 @@ NOISE = re.compile(r"\b(lirik|lagu|chord|zodiak|resep|open bo|video syur|gisel|a
     r"harga (hp|motor|mobil|emas)|vario|nmax|promo|nonton|streaming|drakor|prediksi skor|klasemen|liga)\b", re.I)
 
 # --- FILTER LOKASI: pastikan konten relevan Provinsi Jambi ---
-# Penanda Jambi: nama provinsi + 11 kabupaten/kota + ibukotanya + tokoh provinsi.
 _JAMBI = re.compile(r"\b(jambi|muaro ?jambi|batang ?hari|bungo|muara bungo|tebo|muara tebo|"
     r"sarolangun|merangin|bangko|kerinci|sungai penuh|tanjung jabung|tanjab|"
     r"kuala tungkal|muara sabak|sengeti|muara bulian|pemprov jambi|provinsi jambi|"
     r"gubernur jambi|al ?haris|abdullah sani|raden mattaher)\b", re.I)
-# Penanda daerah LAIN (terutama Bengkulu yang sempat bocor + provinsi tetangga).
 _NONJAMBI = re.compile(r"\b(bengkulu|muko-?muko|mukomuko|kaur|seluma|rejang lebong|kepahiang|"
     r"lebong|argamakmur|curup|manjun?to|"
     r"palembang|sumatera selatan|sumsel|padang|sumatera barat|sumbar|"
@@ -259,13 +276,10 @@ def is_jambi_article(text, url="", title=""):
     ada_jambi = bool(_JAMBI.search(blob))
     ada_lain = bool(_NONJAMBI.search(blob))
     if ada_lain and not ada_jambi:
-        return False          # jelas daerah lain -> buang seluruh artikel
-    return True               # ada penanda Jambi, atau netral -> simpan
+        return False
+    return True
 
 def harvest_links(listing_urls, must_contain="/berita/", limit=None):
-    """Panen URL artikel dari halaman daftar (pencarian / kategori / homepage).
-    must_contain="/berita/" (Antara) untuk pola pasti, ATAU "auto" untuk
-    deteksi otomatis lintas-portal (heuristik slug/angka). Ganti per portal."""
     import requests, re as _re
     from urllib.parse import urljoin, urlparse
     H = {"User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -276,13 +290,13 @@ def harvest_links(listing_urls, must_contain="/berita/", limit=None):
              "/index", "/privacy", "/redaksi", "/pedoman", "javascript:", "mailto:")
     def is_article(url, host):
         p = urlparse(url)
-        if p.netloc and host not in p.netloc: return False         # situs sama
+        if p.netloc and host not in p.netloc: return False
         path = p.path.lower()
         if any(s in path for s in _SKIP): return False
         if path in ("", "/"): return False
         if _re.search(r'\.(jpg|jpeg|png|gif|pdf|mp4|css|js)$', path): return False
         slug = path.rstrip("/").split("/")[-1]
-        return slug.count("-") >= 2 or bool(_re.search(r'\d{4,}', path))  # slug/id artikel
+        return slug.count("-") >= 2 or bool(_re.search(r'\d{4,}', path))
     seen, found = set(), []
     for lu in listing_urls:
         try:
@@ -306,7 +320,6 @@ def harvest_links(listing_urls, must_contain="/berita/", limit=None):
 
 def scrape(urls):
     import trafilatura, requests
-    # Samar sebagai browser -> atasi 403 (anti-bot). Encoding gzip/deflate -> hindari ZSTD error.
     HEADERS = {
         "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                        "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"),
@@ -325,7 +338,7 @@ def scrape(urls):
                 print(f"  [{r.status_code}] {u}")
         except Exception as e:
             print(f"  [req-error] {u}: {e}")
-        if not html:                                   # fallback ke fetcher bawaan
+        if not html:
             try:
                 html = trafilatura.fetch_url(u)
             except Exception as e:
@@ -340,7 +353,7 @@ def scrape(urls):
             print(f"  [tanpa-isi] {u}"); continue
         d = json.loads(data)
         arts.append({
-            "source_url": u,                       # PROVENANCE (wajib, auditability)
+            "source_url": u,
             "title": d.get("title", ""),
             "date": d.get("date", ""),
             "text": d.get("text", ""),
@@ -348,14 +361,12 @@ def scrape(urls):
     return arts
 
 def pseudonymize(text):
-    text = re.sub(r'\b(0|\+62)[\d\-\s]{8,13}\b', '[NOMOR]', text)            # HP
-    text = re.sub(r'\b\d{16}\b', '[NIK]', text)                              # NIK
+    text = re.sub(r'\b(0|\+62)[\d\-\s]{8,13}\b', '[NOMOR]', text)
+    text = re.sub(r'\b\d{16}\b', '[NIK]', text)
     text = re.sub(r'\b(Bapak|Ibu|Pak|Bu|Sdr|Saudara)\s+[A-Z][a-z]+(\s[A-Z][a-z]+)?',
                   r'\1 [NAMA]', text)
     return text
 
-
-# --- penanda (cue) pendukung extract_units_fallback & gov_level ---
 _WARGA_CUE = re.compile(r'\b(warga|masyarakat|pengguna|pemohon|pasien|wali murid|'
                         r'orang ?tua siswa|netizen|warganet|pengunjung|penumpang|keluarga pasien)\b', re.I)
 _PEJABAT_CUE = re.compile(r'\b(kepala dinas|kadis|gubernur|wagub|wakil gubernur|sekda|'
@@ -375,17 +386,17 @@ def extract_units_fallback(article_text, title=""):
     tnorm = re.sub(r'\s+', ' ', title.lower()).strip()
     for s in re.split(r'(?<=[.!?])\s+', article_text):
         s = s.strip()
-        if len(s.split()) < 6:                       # buang fragmen/judul pendek
+        if len(s.split()) < 6:
             continue
         sn = re.sub(r'\s+', ' ', s.lower()).strip()
         if tnorm and (sn == tnorm or sn in tnorm or tnorm in sn):
-            continue                                 # buang baris judul
-        if not _WARGA_CUE.search(s):                 # harus ada penanda suara warga
             continue
-        if _PEJABAT_CUE.search(s):                   # buang suara pejabat
+        if not _WARGA_CUE.search(s):
+            continue
+        if _PEJABAT_CUE.search(s):
             continue
         key = sn[:80]
-        if key in seen:                              # dedup
+        if key in seen:
             continue
         seen.add(key); units.append(s)
     return units
@@ -394,9 +405,94 @@ def gov_level(text):
     p, k = bool(_PROV_CUE.search(text)), bool(_KOTA_CUE.search(text))
     return "provinsi" if (p and not k) else "kota" if (k and not p) else "tak jelas"
 
+# ==========================================================================
+# ====================  DEDUP KONTEN (BARU)  ===============================
+# ==========================================================================
+
+def _norm_teks(s):
+    """Normalisasi untuk perbandingan: huruf kecil, buang tanda baca, rapikan spasi.
+    Dipakai untuk hash eksak DAN shingle near-dup."""
+    s = s.lower()
+    s = re.sub(r'[^\w\s]', ' ', s)
+    s = re.sub(r'\s+', ' ', s).strip()
+    return s
+
+def _hash_eksak(s):
+    """Hash teks ternormalisasi -> deteksi duplikat PERSIS (setelah normalisasi)."""
+    return hashlib.md5(_norm_teks(s).encode('utf-8')).hexdigest()
+
+def _shingles(s, k=SHINGLE_K):
+    """Himpunan shingle (potongan k-kata berturut) dari teks ternormalisasi.
+    Basis Jaccard: dua teks mirip jika banyak shingle yang sama."""
+    kata = _norm_teks(s).split()
+    if len(kata) < k:
+        return frozenset([' '.join(kata)]) if kata else frozenset()
+    return frozenset(' '.join(kata[i:i+k]) for i in range(len(kata)-k+1))
+
+def _jaccard(a, b):
+    """Kemiripan Jaccard dua himpunan shingle: |irisan| / |gabungan|."""
+    if not a or not b:
+        return 0.0
+    inter = len(a & b)
+    union = len(a | b)
+    return inter / union if union else 0.0
+
+# --- MinHash-LSH sederhana untuk mempercepat cari kandidat near-dup ---
+_MERSENNE = (1 << 61) - 1
+def _minhash(shingle_set, perm=MINHASH_PERM):
+    """Tanda tangan MinHash: untuk tiap permutasi, ambil hash minimum antar shingle."""
+    if not shingle_set:
+        return tuple([0]*perm)
+    sig = []
+    hashes = [hash(sh) & 0xffffffffffffffff for sh in shingle_set]
+    for i in range(perm):
+        a = 2*i + 1
+        b = 2*i + 3
+        sig.append(min(((a*h + b) % _MERSENNE) for h in hashes))
+    return tuple(sig)
+
+def _lsh_keys(sig, bands=LSH_BANDS):
+    """Pecah signature jadi 'band'; unit dengan band identik jadi kandidat mirip."""
+    rows = max(1, len(sig)//bands)
+    keys = []
+    for bi in range(bands):
+        chunk = sig[bi*rows:(bi+1)*rows]
+        keys.append((bi, hash(chunk)))
+    return keys
+
+def baca_unit_lama():
+    """Kembalikan (set_hash_eksak, list_shingle_lama, lsh_index) dari data.csv.
+    Dipakai untuk dedup unit baru terhadap SEMUA unit lama."""
+    hash_lama = set()
+    shingle_lama = []
+    lsh = {}
+    if not os.path.exists(DATA_FILE):
+        return hash_lama, shingle_lama, lsh
+    with open(DATA_FILE, encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            u = row.get("unit", "")
+            if not u:
+                continue
+            hash_lama.add(_hash_eksak(u))
+            sh = _shingles(u)
+            idx = len(shingle_lama)
+            shingle_lama.append(sh)
+            for key in _lsh_keys(_minhash(sh)):
+                lsh.setdefault(key, []).append(idx)
+    return hash_lama, shingle_lama, lsh
+
+def _near_dup(sh_baru, shingle_ref, lsh_ref):
+    """True jika sh_baru near-duplicate terhadap salah satu shingle di ref.
+    Pakai LSH untuk ambil kandidat, lalu cek Jaccard sebenarnya."""
+    kandidat = set()
+    for key in _lsh_keys(_minhash(sh_baru)):
+        kandidat.update(lsh_ref.get(key, []))
+    for idx in kandidat:
+        if _jaccard(sh_baru, shingle_ref[idx]) >= NEARDUP_AMBANG:
+            return True
+    return False
 
 def baca_url_lama():
-    """URL yang sudah pernah diambil (dedup), dari data.csv."""
     seen = set()
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, encoding="utf-8") as f:
@@ -416,23 +512,61 @@ def main():
 
     arts = scrape(baru)
     tanggal = datetime.now().strftime("%Y-%m-%d")
+
+    # ==== muat unit lama untuk dedup lintas-semua-data ====
+    hash_lama, shingle_lama, lsh_lama = baca_unit_lama()
+    print(f"Unit lama dimuat untuk dedup: {len(shingle_lama)}")
+
+    # penampung dedup unit BARU (eksak + near-dup) dalam run ini
+    hash_baru = set()
+    shingle_baru = []
+    lsh_baru = {}
+
     rows = []
     buang_lokasi = 0
+    buang_eksak_lama = buang_eksak_baru = 0
+    buang_near_lama = buang_near_baru = 0
+
     for art in arts:
-        # FILTER LOKASI level-artikel: buang yang jelas daerah lain
         if not is_jambi_article(art["text"], art["source_url"], art.get("title","")):
             buang_lokasi += 1
             print(f"  [bukan Jambi] {art['source_url']}"); continue
         clean = pseudonymize(art["text"])
         for u in extract_units_fallback(clean, art.get("title","")):
-            # relevan topik, bukan noise, DAN tak menyebut daerah lain (filter lapis-2)
-            if RELEVAN.search(u) and not NOISE.search(u) and not _NONJAMBI.search(u):
-                rows.append({"unit": u, "level": gov_level(u),
-                             "source_url": art["source_url"], "tanggal_ambil": tanggal})
+            # filter topik/noise/lokasi (seperti sebelumnya)
+            if not (RELEVAN.search(u) and not NOISE.search(u) and not _NONJAMBI.search(u)):
+                continue
+
+            h = _hash_eksak(u)
+            # --- (2) dedup EKSAK: vs lama, lalu vs baru ---
+            if h in hash_lama:
+                buang_eksak_lama += 1; continue
+            if h in hash_baru:
+                buang_eksak_baru += 1; continue
+
+            sh = _shingles(u)
+            # --- (3) dedup NEAR-DUP: vs lama, lalu vs baru ---
+            if _near_dup(sh, shingle_lama, lsh_lama):
+                buang_near_lama += 1; continue
+            if _near_dup(sh, shingle_baru, lsh_baru):
+                buang_near_baru += 1; continue
+
+            # --- lolos semua dedup: terima unit ---
+            hash_baru.add(h)
+            idx = len(shingle_baru)
+            shingle_baru.append(sh)
+            for key in _lsh_keys(_minhash(sh)):
+                lsh_baru.setdefault(key, []).append(idx)
+
+            rows.append({"unit": u, "level": gov_level(u),
+                         "source_url": art["source_url"], "tanggal_ambil": tanggal})
+
     print(f"Artikel dibuang (bukan Jambi): {buang_lokasi}")
-    print(f"Unit relevan baru: {len(rows)}")
+    print(f"Dibuang dedup EKSAK  : vs-lama={buang_eksak_lama}  vs-baru={buang_eksak_baru}")
+    print(f"Dibuang dedup NEARDUP: vs-lama={buang_near_lama}  vs-baru={buang_near_baru}")
+    print(f"Unit relevan baru (setelah dedup): {len(rows)}")
     if not rows:
-        print("Tidak ada unit relevan. Selesai."); return
+        print("Tidak ada unit relevan baru. Selesai."); return
 
     baru_file = not os.path.exists(DATA_FILE)
     with open(DATA_FILE, "a", encoding="utf-8", newline="") as f:
