@@ -3577,5 +3577,28 @@
     "actionable": "",
     "dinas": "",
     "dasar_hukum": ""
+  },
+  {
+    "unit": "Jika setiap mantan narapidana terus-menerus diposisikan sebagai terdakwa di ruang publik, maka hukum kehilangan salah satu tujuan utamanya, yaitu memberi kesempatan bagi seseorang untuk kembali menjadi bagian dari masyarakat.",
+    "level": "tak jelas",
+    "source_url": "https://bacahukum.com/2026/06/28/batasan-politis-dan-yuridis-dalam-menghukum-tanpa-akhir/",
+    "tanggal_ambil": "2026-07-01",
+    "sentimen": "negatif",
+    "actionable": "tinjau",
+    "dinas": "DI LUAR KEWENANGAN / PERLU DITINJAU",
+    "dasar_hukum": "-",
+    "skor_tupoksi": 0.481,
+    "bidang_cocok": "Rehabilitasi Sosial",
+    "rekomendasi": "Keluhan tidak terpetakan ke tupoksi OPD provinsi mana pun (skor 0.481 di bawah ambang 0.5). Perlu ditinjau manual: kemungkinan opini umum atau kewenangan kabupaten/kota."
+  },
+  {
+    "unit": "Signifikansi Putusan\nSelama proses persidangan, MK telah mendengarkan keterangan dari berbagai pihak, termasuk perwakilan DPR sebagai pembentuk undang-undang, pemerintah, serta para pemohon dan ahli mereka.",
+    "level": "tak jelas",
+    "source_url": "https://bacahukum.com/2025/09/17/mk-kembali-gelar-sidang-putusan-uji-formil-uu-tni-dan-uu-bumn/",
+    "tanggal_ambil": "2026-07-01",
+    "sentimen": "netral",
+    "actionable": "",
+    "dinas": "",
+    "dasar_hukum": ""
   }
 ]
