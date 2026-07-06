@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Masuk — Dashboard Berita Jambi</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #ffffff;
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --text: #0f172a;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --error: #dc2626;
+      --radius: 14px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 55%, #172554 100%);
+      color: var(--text);
+    }
+
+    .card {
+      width: 100%;
+      max-width: 400px;
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+      padding: 40px 32px 32px;
+      animation: rise 0.5s ease;
+    }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 6px;
+    }
+
+    .brand .logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--primary), #38bdf8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    .brand h1 {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 28px;
+    }
+
+    .field { margin-bottom: 18px; }
+
+    .field label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #334155;
+    }
+
+    .input-wrap { position: relative; }
+
+    .field input {
+      width: 100%;
+      padding: 12px 14px;
+      font-size: 15px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      outline: none;
+      transition: border-color 0.15s, box-shadow 0.15s;
+      background: #f8fafc;
+    }
+
+    .field input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+      background: #fff;
+    }
+
+    .toggle-pass {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 13px;
+      padding: 4px;
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      font-size: 13px;
+    }
+
+    .row label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--muted);
+      cursor: pointer;
+    }
+
+    .row a { color: var(--primary); text-decoration: none; }
+    .row a:hover { text-decoration: underline; }
+
+    .btn {
+      width: 100%;
+      padding: 12px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #fff;
+      background: var(--primary);
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.15s, transform 0.05s;
+    }
+
+    .btn:hover { background: var(--primary-hover); }
+    .btn:active { transform: scale(0.99); }
+
+    .error-msg {
+      display: none;
+      background: #fef2f2;
+      color: var(--error);
+      font-size: 13px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      margin-bottom: 18px;
+      border: 1px solid #fecaca;
+    }
+    .error-msg.show { display: block; }
+
+    .footer {
+      text-align: center;
+      margin-top: 24px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .footer a { color: var(--primary); text-decoration: none; font-weight: 600; }
+    .footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="brand">
+      <div class="logo">J</div>
+      <h1>Dashboard Berita Jambi</h1>
+    </div>
+    <p class="subtitle">Masuk untuk mengakses data & analisis</p>
+
+    <div class="error-msg" id="errorMsg">Email atau kata sandi salah. Coba lagi.</div>
+
+    <form id="loginForm" novalidate>
+      <div class="field">
+        <label for="email">Email</label>
+        <div class="input-wrap">
+          <input type="email" id="email" name="email" placeholder="nama@contoh.com" autocomplete="username" required />
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="password">Kata Sandi</label>
+        <div class="input-wrap">
+          <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password" required />
+          <button type="button" class="toggle-pass" id="togglePass" aria-label="Tampilkan kata sandi">Lihat</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <label><input type="checkbox" id="remember" /> Ingat saya</label>
+        <a href="#">Lupa kata sandi?</a>
+      </div>
+
+      <button type="submit" class="btn">Masuk</button>
+    </form>
+
+    <p class="footer">Belum punya akun? <a href="#">Daftar</a></p>
+  </main>
+
+  <script>
+    const form = document.getElementById('loginForm');
+    const errorMsg = document.getElementById('errorMsg');
+    const togglePass = document.getElementById('togglePass');
+    const password = document.getElementById('password');
+
+    togglePass.addEventListener('click', () => {
+      const isHidden = password.type === 'password';
+      password.type = isHidden ? 'text' : 'password';
+      togglePass.textContent = isHidden ? 'Sembunyikan' : 'Lihat';
+    });
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const email = document.getElementById('email').value.trim();
+      const pass = password.value.trim();
+
+      if (!email || !pass) {
+        errorMsg.textContent = 'Email dan kata sandi wajib diisi.';
+        errorMsg.classList.add('show');
+        return;
+      }
+
+      const emailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+      if (!emailValid) {
+        errorMsg.textContent = 'Format email tidak valid.';
+        errorMsg.classList.add('show');
+        return;
+      }
+
+      errorMsg.classList.remove('show');
+      // TODO: sambungkan ke endpoint autentikasi backend di sini.
+      alert('Login berhasil (demo). Sambungkan ke backend untuk autentikasi nyata.');
+    });
+  </script>
+</body>
+</html>
